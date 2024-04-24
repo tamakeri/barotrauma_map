@@ -3,6 +3,10 @@ from pyvis import network as net
 from IPython.display import display, HTML
 
 def generate_edge():
+
+    #burası wire lar kime neye gidecek
+    #source destitaniton
+    
     s = random.randint(1,20)
     d = random.randint(1,20)
     return (s,d)
@@ -20,6 +24,7 @@ g_complete =net.Network(height='600px',width='50%',
             heading="A Complete Networkx Graph",directed=True)
 
 colors=[]
+#burası nokta ekleme
 for dugum_nokta in range(1,45):  
     c = generate_color()
     while(c in colors):
@@ -29,12 +34,14 @@ for dugum_nokta in range(1,45):
     val = generate_size_node()
     #boyut seçimi
     b = random.randint(3,5)
-    
+    #burası özellikleri
     g_complete.add_node(dugum_nokta,label=str(dugum_nokta),color=c,value=val,
                         title="Hello! I am Node "+str(dugum_nokta),borderWidth=b)
     
 i=0
 chosen_set = []
+
+#burası  arrow
 while(i!=20):
     eg = generate_edge()
     if(eg[0]!=eg[1] and not (eg in chosen_set)):
