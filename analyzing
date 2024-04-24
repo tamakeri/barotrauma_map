@@ -11,10 +11,6 @@
       <requireditem items="screwdriver" type="Equipped" characterinventoryslottype="None" optional="false" ignoreineditor="false" excludebroken="true" requireempty="false" excludefullcondition="false" targetslot="-1" allowvariants="true" rotation="0" setactive="false" />
       <input name="toggle" />
       <input name="set_state">
-	  
-	  
-	  
-	  asdasda
         <link w="174" i="0" />
       </input>
       <output name="state_out" />
