@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Dugong 2.0" modversion="1.0.7" corepackage="False" steamworkshopid="2824762485" gameversion="1.4.4.1">
+<contentpackage name="Dugong 2.0" modversion="1.0.8" corepackage="False" steamworkshopid="2824762485" gameversion="1.4.5.0">
   <Submarine file="%ModDir%/Dugong 2.6.2.sub" />
 </contentpackage>
