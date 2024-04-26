@@ -14,35 +14,27 @@ s=""
 for i in f:
     s=s+i
 flag=False
-temp=""
+temp="\t"
 real_arr=[]
 
 
-
+# this block is for adding to array
 for i in range(len (s)):
-
-    if (flag):
-        temp=temp+s[i]
+        if(s[i:i+7]=="</Item>"): 
+            flag=False
+            temp=temp+s[i:i+7]+"\n"
+            real_arr.append(temp)
+            temp="\t"
+        if(s[i:i+10]=="<Item name"): 
+                flag=True
+        if (flag):
+            temp=temp+s[i]
         
 
 
-    if(s[i]=="<"):
-        if(s[i:i+6]=="<Item "): 
-            flag=True
-            temp=temp+s[i]
 
-        if(s[i:i+7]=="</Item>"): 
-            flag=False
-            temp=temp+s[i]
-            real_arr.append(temp)
-            temp=""
-            
-
-print(real_arr)
-
-
-
-f = open("demofile2.txt", "a")
+#this block is writing the xml for testing 
+f = open("demofile2.xml", "w")
 for i in range(len (real_arr)):
     f.write(real_arr[i])
 f.close()
