@@ -10,20 +10,41 @@ aranan_dosya = [x for x in li2 if x not in s]
 import time
 f = open("thisss i", "r")
 
-arr=[]
+s=""
 for i in f:
-    print(i)
+    s=s+i
+flag=False
+temp=""
+real_arr=[]
 
 
 
-    #literaly  line arıyor daha iyi bir wire  aram a yöntemi bul
-    time.sleep(5)
-    if(i.find("wire")>0):
+for i in range(len (s)):
 
-
+    if (flag):
+        temp=temp+s[i]
         
-        arr.append(i)
-        arr.append("|||")
-    
 
-print(arr[1])
+
+    if(s[i]=="<"):
+        if(s[i:i+6]=="<Item "): 
+            flag=True
+            temp=temp+s[i]
+
+        if(s[i:i+7]=="</Item>"): 
+            flag=False
+            temp=temp+s[i]
+            real_arr.append(temp)
+            temp=""
+            
+
+print(real_arr)
+
+
+
+f = open("demofile2.txt", "a")
+for i in range(len (real_arr)):
+    f.write(real_arr[i])
+f.close()
+
+#open and read the file after the appending:
