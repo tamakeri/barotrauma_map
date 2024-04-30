@@ -46,7 +46,8 @@ while(i!=20):
     eg = generate_edge()
     if(eg[0]!=eg[1] and not (eg in chosen_set)):
         chosen_set.append(eg)
-        g_complete.add_edge(eg[0],eg[1])
+        # change label for penis
+        g_complete.add_edge(eg[0],eg[1], label='5')
         i+=1
 
 g_complete.show_buttons(['physics'])

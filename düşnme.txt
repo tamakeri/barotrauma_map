@@ -45,6 +45,23 @@ Compressed: 257974
   biz burda ne aramalayız?
 
 
+/////
+
+
+<Wire[^>]*?nodes="([^"]*)"[^>]*?>
+
+ this is for getting wire entry
+
+
+
+
+/////
+
+
+this gets me my wire
+identifier="\w*wire"
+
+
   önce tüm kablolar
 
 
@@ -53,9 +70,32 @@ Compressed: 257974
    kablo id
 
 
-   kablo id  compenentlere bakılır
+   kablo id  
 
-   compenenlet lerden link lere bakılır
+
+
+  <Item name="" identifier="andcomponent" ID="62" rect="1040,-128,15,14" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="circuitboxcomponent,smallitem,logic" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.8" HiddenInGame="False" Layer="New group (2)" conditionpercentage="100">
+    <AndComponent TimeFrame="0" MaxOutputLength="200" Output="0" FalseOutput="" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+    <Holdable Attached="True" SpriteDepthWhenDropped="0.55" PickingTime="5" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgDetachWrench">
+      <requireditem items="wrench" type="Equipped" characterinventoryslottype="None" optional="false" ignoreineditor="false" excludebroken="true" requireempty="false" excludefullcondition="false" targetslot="-1" allowvariants="true" rotation="0" setactive="false" />
+    </Holdable>
+    <ConnectionPanel Locked="False" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgRewireScrewdriver">
+      <requireditem items="screwdriver" type="Equipped" characterinventoryslottype="None" optional="false" ignoreineditor="false" excludebroken="true" requireempty="false" excludefullcondition="false" targetslot="-1" allowvariants="true" rotation="0" setactive="false" />
+      <input name="signal_in1">
+        <link w="56" i="1" />
+      </input>
+      <input name="signal_in2">
+        <link w="57" i="0" />
+      </input>
+      <input name="set_output" />
+      <output name="signal_out">
+        <link w="60" i="1" />
+      </output>
+    </ConnectionPanel>
+  </Item>
+
+
+compenenlet lerden link lere bakılır
 
 burda bu şekilde tüm compenentler sıralanar *????
 
