@@ -93,7 +93,7 @@ for i in range(len (real_arr)):
 
 
 #this block is writing the xml for testing 
-f = open("dog.xml", "w")
+f = open("here_is_the list.xml", "w")
 for i in range(len (newarr)):
 
     f.write(str(newarr[i]))
