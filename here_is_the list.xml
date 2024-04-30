@@ -1,706 +1,2705 @@
-[' identifier="windoweddoorwbuttons" ID="1" ']
-['<link w="174" i="0" />']
-['<link w="1160" i="0" />']
-[' identifier="divingsuitlocker" ID="6" ']
-['<link w="1168" i="0" />']
-[' identifier="hatchwbuttons" ID="10" ']
-['<link w="18" i="0" />']
-[' identifier="notcomponent" ID="19" ']
-['<link w="11" i="0" />', '<link w="12" i="0" />']
-[' identifier="doorwbuttons" ID="20" ']
-['<link w="29" i="0" />', '<link w="30" i="0" />']
-[' identifier="doorwbuttons" ID="21" ']
-['<link w="31" i="0" />', '<link w="32" i="0" />', '<link w="33" i="0" />', '<link w="620" i="0" />']
-[' identifier="waterdetector" ID="22" ']
-['<link w="34" i="0" />']
-[' identifier="andcomponent" ID="23" ']
-['<link w="32" i="1" />', '<link w="30" i="1" />', '<link w="29" i="1" />', '<link w="31" i="1" />']
-[' identifier="andcomponent" ID="24" ']
-['<link w="34" i="1" />', '<link w="35" i="0" />', '<link w="36" i="0" />']
-[' identifier="notcomponent" ID="25" ']
-['<link w="33" i="1" />', '<link w="35" i="1" />']
-[' identifier="smallpump" ID="26" ']
-['<link w="558" i="0" />', '<link w="36" i="1" />']
-[' identifier="notcomponent" ID="49" ']
-['<link w="40" i="0" />', '<link w="41" i="0" />']
-[' identifier="andcomponent" ID="50" ']
-['<link w="41" i="1" />', '<link w="42" i="0" />', '<link w="48" i="0" />']
-[' identifier="delaycomponent" ID="51" ']
-['<link w="47" i="0" />', '<link w="42" i="1" />']
-[' identifier="motiondetector" ID="52" ']
-['<link w="40" i="1" />', '<link w="47" i="1" />']
-[' identifier="hatchwbuttons" ID="54" ']
-['<link w="60" i="0" />']
-[' identifier="notcomponent" ID="61" ']
-['<link w="55" i="0" />', '<link w="56" i="0" />']
-[' identifier="andcomponent" ID="62" ']
-['<link w="56" i="1" />', '<link w="57" i="0" />', '<link w="60" i="1" />']
-[' identifier="delaycomponent" ID="63" ']
-['<link w="58" i="0" />', '<link w="57" i="1" />']
-[' identifier="doorwbuttons" ID="64" ']
-['<link w="66" i="0" />']
-[' identifier="notcomponent" ID="69" ']
-['<link w="65" i="0" />', '<link w="68" i="0" />']
-[' identifier="andcomponent" ID="71" ']
-['<link w="68" i="1" />', '<link w="70" i="0" />', '<link w="66" i="1" />']
-[' identifier="doorwbuttons" ID="73" ']
-['<link w="75" i="0" />']
-[' identifier="notcomponent" ID="78" ']
-['<link w="74" i="0" />', '<link w="77" i="0" />']
-[' identifier="junctionbox" ID="81" ']
-['<link w="91" i="0" />', '<link w="93" i="0" />', '<link w="94" i="0" />', '<link w="115" i="0" />', '<link w="736" i="0" />']
-[' identifier="junctionbox" ID="83" ']
-['<link w="93" i="1" />', '<link w="112" i="0" />', '<link w="179" i="0" />', '<link w="180" i="0" />', '<link w="1683" i="0" />']
-[' identifier="pump" ID="84" ']
-['<link w="179" i="1" />', '<link w="605" i="0" />', '<link w="1190" i="0" />', '<link w="1284" i="0" />']
-[' identifier="pump" ID="85" ']
-['<link w="180" i="1" />', '<link w="652" i="0" />', '<link w="1194" i="0" />', '<link w="1285" i="0" />']
-[' identifier="junctionbox" ID="86" ']
-['<link w="94" i="1" />', '<link w="99" i="0" />', '<link w="100" i="0" />', '<link w="113" i="0" />']
-[' identifier="junctionbox" ID="87" ']
-['<link w="90" i="0" />', '<link w="91" i="1" />', '<link w="628" i="0" />', '<link w="914" i="0" />']
-[' identifier="supercapacitor" ID="89" ']
-['<link w="107" i="0" />', '<link w="109" i="0" />', '<link w="598" i="0" />', '<link w="896" i="0" />', '<link w="1412" i="0" />', '<link w="99" i="1" />']
-[' identifier="supercapacitor" ID="92" ']
-['<link w="106" i="0" />', '<link w="108" i="0" />', '<link w="436" i="0" />', '<link w="1062" i="0" />', '<link w="1413" i="0" />', '<link w="100" i="1" />']
-[' identifier="coilgun" ID="102" ']
-['<link w="107" i="1" />', '<link w="108" i="1" />', '<link w="588" i="0" />', '<link w="589" i="0" />', '<link w="1410" i="0" />']
-[' identifier="coilgun" ID="103" ']
-['<link w="106" i="1" />', '<link w="109" i="1" />', '<link w="586" i="0" />', '<link w="587" i="0" />', '<link w="1408" i="0" />']
-[' identifier="junctionbox" ID="105" ']
-['<link w="115" i="1" />', '<link w="116" i="0" />', '<link w="118" i="0" />', '<link w="203" i="0" />', '<link w="466" i="0" />']
-[' identifier="andcomponent" ID="110" ']
-['<link w="77" i="1" />', '<link w="95" i="0" />', '<link w="75" i="1" />']
-[' identifier="junctionbox" ID="111" ']
-['<link w="118" i="1" />', '<link w="199" i="0" />', '<link w="560" i="0" />', '<link w="1417" i="0" />']
-[' identifier="ductblock" ID="128" ']
-['<link w="643" i="0" />']
-[' identifier="junctionbox" ID="133" ']
-['<link w="354" i="0" />', '<link w="505" i="0" />', '<link w="1096" i="0" />', '<link w="1371" i="0" />']
-[' identifier="windoweddoorwbuttons" ID="135" ']
-['<link w="224" i="0" />']
-[' identifier="waterdetector" ID="140" ']
-['<link w="463" i="0" />']
-[' identifier="navterminal" ID="148" ']
-['<link w="112" i="1" />', '<link w="82" i="0" />', '<link w="605" i="1" />', '<link w="652" i="1" />', '<link w="737" i="0" />', '<link w="686" i="0" />', '<link w="1434" i="0" />', '<link w="721" i="0" />', '<link w="621" i="0" />', '<link w="622" i="0" />']
-[' identifier="engine" ID="150" ']
-['<link w="116" i="1" />', '<link w="82" i="1" />']
-[' identifier="periscope" ID="155" ']
-['<link w="588" i="1" />', '<link w="589" i="1" />']
-[' identifier="periscope" ID="158" ']
-['<link w="586" i="1" />', '<link w="587" i="1" />']
-['<link w="90" i="1" />', '<link w="721" i="1" />', '<link w="1210" i="0" />', '<link w="1482" i="0" />', '<link w="619" i="0" />', '<link w="1183" i="0" />', '<link w="1316" i="0" />', '<link w="1416" i="0" />']
-[' identifier="statusmonitor" ID="163" ']
-['<link w="113" i="1" />']
-[' identifier="oxygenerator" ID="166" ']
-['<link w="1685" i="0" />']
-[' identifier="notcomponent" ID="175" ']
-['<link w="7" i="0" />', '<link w="8" i="0" />']
-[' identifier="andcomponent" ID="176" ']
-['<link w="8" i="1" />', '<link w="9" i="0" />', '<link w="174" i="1" />']
-[' identifier="motiondetector" ID="177" ']
-['<link w="55" i="1" />', '<link w="58" i="1" />']
-[' identifier="delaycomponent" ID="184" ']
-['<link w="17" i="0" />', '<link w="15" i="0" />']
-[' identifier="lamp" ID="185" ']
-['<link w="1335" i="0" />']
-[' identifier="lamp" ID="186" ']
-['<link w="1336" i="0" />']
-[' identifier="lamp" ID="187" ']
-['<link w="1337" i="0" />']
-[' identifier="lamp" ID="188" ']
-['<link w="1333" i="0" />']
-[' identifier="lamp" ID="189" ']
-['<link w="1332" i="0" />']
-[' identifier="lamp" ID="190" ']
-['<link w="742" i="0" />']
-[' identifier="lamp" ID="191" ']
-['<link w="208" i="0" />']
-[' identifier="orcomponent" ID="194" ']
-['<link w="662" i="0" />', '<link w="663" i="0" />', '<link w="664" i="0" />']
-[' identifier="dischargecoil" ID="196" ']
-['<link w="436" i="1" />', '<link w="598" i="1" />', '<link w="597" i="0" />', '<link w="686" i="1" />']
-[' identifier="junctionbox" ID="200" ']
-['<link w="142" i="0" />', '<link w="203" i="1" />', '<link w="204" i="0" />', '<link w="205" i="0" />', '<link w="246" i="0" />']
-[' identifier="dividecomponent" ID="206" ']
-['<link w="653" i="0" />', '<link w="523" i="0" />', '<link w="725" i="0" />']
-[' identifier="lamp" ID="207" ']
-['<link w="433" i="0" />']
-[' identifier="delaycomponent" ID="210" ']
-['<link w="545" i="0" />', '<link w="447" i="0" />']
-[' identifier="andcomponent" ID="222" ']
-['<link w="516" i="0" />', '<link w="447" i="1" />', '<link w="549" i="0" />']
-[' identifier="divingsuitlocker" ID="223" ']
-['<link w="1164" i="0" />']
-[' identifier="doorwbuttons" ID="226" ']
-['<link w="228" i="0" />']
-[' identifier="notcomponent" ID="231" ']
-['<link w="227" i="0" />', '<link w="230" i="0" />']
-[' identifier="andcomponent" ID="233" ']
-['<link w="230" i="1" />', '<link w="232" i="0" />', '<link w="228" i="1" />']
-[' identifier="delaycomponent" ID="235" ']
-['<link w="16" i="0" />', '<link w="9" i="1" />']
-[' identifier="andcomponent" ID="239" ']
-['<link w="12" i="1" />', '<link w="15" i="1" />', '<link w="18" i="1" />']
-[' identifier="smallpump" ID="240" ']
-['<link w="244" i="0" />', '<link w="243" i="0" />']
-[' identifier="smallpump" ID="241" ']
-['<link w="246" i="1" />', '<link w="247" i="0" />']
-[' identifier="smallpump" ID="245" ']
-['<link w="628" i="1" />', '<link w="463" i="1" />']
-[' identifier="lamp" ID="266" ']
-['<link w="209" i="0" />']
-[' identifier="smallpump" ID="284" ']
-['<link w="370" i="0" />', '<link w="371" i="0" />']
-[' identifier="waterdetector" ID="318" ']
-['<link w="643" i="1" />', '<link w="680" i="0" />']
-[' identifier="junctionbox" ID="367" ']
-['<link w="354" i="1" />', '<link w="466" i="1" />', '<link w="503" i="0" />', '<link w="728" i="0" />', '<link w="1473" i="0" />']
-[' identifier="oscillator" ID="380" ']
-['<link w="1219" i="0" />']
-[' identifier="motiondetector" ID="383" ']
-['<link w="7" i="1" />', '<link w="16" i="1" />']
-[' identifier="delaycomponent" ID="385" ']
-['<link w="229" i="0" />', '<link w="232" i="1" />']
-[' identifier="emergencysiren" ID="386" ']
-['<link w="619" i="1" />']
-[' identifier="motiondetector" ID="387" ']
-['<link w="227" i="1" />', '<link w="229" i="1" />']
-[' identifier="notcomponent" ID="389" ']
-['<link w="149" i="0" />', '<link w="160" i="0" />']
-[' identifier="andcomponent" ID="390" ']
-['<link w="160" i="1" />', '<link w="197" i="0" />', '<link w="224" i="1" />']
-[' identifier="delaycomponent" ID="391" ']
-['<link w="219" i="0" />', '<link w="197" i="1" />']
-[' identifier="motiondetector" ID="392" ']
-['<link w="149" i="1" />', '<link w="219" i="1" />']
-[' identifier="delaycomponent" ID="394" ']
-['<link w="76" i="0" />', '<link w="95" i="1" />']
-[' identifier="motiondetector" ID="395" ']
-['<link w="74" i="1" />', '<link w="76" i="1" />']
-[' identifier="delaycomponent" ID="397" ']
-['<link w="67" i="0" />', '<link w="70" i="1" />']
-[' identifier="motiondetector" ID="398" ']
-['<link w="65" i="1" />', '<link w="67" i="1" />']
-['<link w="1161" i="0" />']
-[' identifier="divingsuitlocker" ID="406" ']
-['<link w="1166" i="0" />']
-['<link w="1162" i="0" />']
-[' identifier="divingsuitlocker" ID="413" ']
-['<link w="1165" i="0" />']
-['<link w="1163" i="0" />']
-['<link w="1159" i="0" />']
-[' identifier="divingsuitlocker" ID="425" ']
-['<link w="1391" i="0" />']
-[' identifier="oxygentankshelf" ID="444" ']
-['<link w="1684" i="0" />']
-[' identifier="memorycomponent" ID="504" ']
-['<link w="523" i="1" />']
-[' identifier="notcomponent" ID="515" ']
-['<link w="550" i="0" />', '<link w="516" i="1" />']
-[' identifier="motiondetector" ID="517" ']
-['<link w="545" i="1" />', '<link w="550" i="1" />']
-[' identifier="doorwbuttons" ID="518" ']
-['<link w="549" i="1" />']
-[' identifier="hatchwbuttons" ID="529" ']
-['<link w="48" i="1" />']
-[' identifier="motiondetector" ID="539" ']
-['<link w="11" i="1" />', '<link w="17" i="1" />']
-[' identifier="hatchwbuttons" ID="561" ']
-['<link w="567" i="0" />']
-[' identifier="delaycomponent" ID="562" ']
-['<link w="568" i="0" />', '<link w="569" i="0" />']
-[' identifier="andcomponent" ID="563" ']
-['<link w="570" i="0" />', '<link w="569" i="1" />', '<link w="567" i="1" />']
-[' identifier="notcomponent" ID="564" ']
-['<link w="571" i="0" />', '<link w="570" i="1" />']
-[' identifier="motiondetector" ID="565" ']
-['<link w="568" i="1" />', '<link w="571" i="1" />']
-[' identifier="alarmbuzzer" ID="576" ']
-['<link w="711" i="0" />']
-[' identifier="alarmbuzzer" ID="580" ']
-['<link w="685" i="0" />']
-[' identifier="smokedetector" ID="581" ']
-['<link w="693" i="0" />']
-['<link w="620" i="1" />']
-[' identifier="button" ID="594" ']
-['<link w="597" i="1" />', '<link w="1415" i="0" />']
-[' identifier="relaycomponent" ID="599" ']
-['<link w="195" i="0" />', '<link w="198" i="0" />', '<link w="737" i="1" />', '<link w="728" i="1" />', '<link w="657" i="0" />']
-[' identifier="waterdetector" ID="600" ']
-['<link w="675" i="0" />', '<link w="1135" i="0" />']
-[' identifier="smokedetector" ID="608" ']
-['<link w="694" i="0" />']
-[' identifier="smokedetector" ID="609" ']
-['<link w="702" i="0" />']
-[' identifier="emergencysiren" ID="610" ']
-['<link w="1304" i="0" />']
-[' identifier="smokedetector" ID="616" ']
-['<link w="704" i="0" />']
-[' identifier="lamp" ID="618" ']
-['<link w="1334" i="0" />']
-[' identifier="battery" ID="623" ']
-['<link w="195" i="1" />', '<link w="199" i="1" />', '<link w="637" i="0" />']
-[' identifier="battery" ID="624" ']
-['<link w="198" i="1" />', '<link w="560" i="1" />', '<link w="638" i="0" />']
-[' identifier="memorycomponent" ID="625" ']
-['<link w="632" i="0" />']
-[' identifier="signalcheckcomponent" ID="626" ']
-['<link w="642" i="0" />', '<link w="633" i="0" />']
-[' identifier="signalcheckcomponent" ID="627" ']
-['<link w="647" i="0" />', '<link w="634" i="0" />']
-[' identifier="signalcheckcomponent" ID="629" ']
-['<link w="648" i="0" />', '<link w="635" i="0" />']
-[' identifier="colorcomponent" ID="631" ']
-['<link w="633" i="1" />', '<link w="634" i="1" />', '<link w="635" i="1" />', '<link w="632" i="1" />', '<link w="656" i="0" />']
-[' identifier="addercomponent" ID="636" ']
-['<link w="637" i="1" />', '<link w="638" i="1" />', '<link w="653" i="1" />']
-[' identifier="memorycomponent" ID="639" ']
-['<link w="654" i="0" />']
-[' identifier="greatercomponent" ID="640" ']
-['<link w="725" i="1" />', '<link w="654" i="1" />', '<link w="642" i="1" />', '<link w="647" i="1" />', '<link w="648" i="1" />']
-[' identifier="waterdetector" ID="641" ']
-['<link w="371" i="1" />']
-[' identifier="ductblock" ID="645" ']
-['<link w="649" i="0" />']
-[' identifier="waterdetector" ID="646" ']
-['<link w="649" i="1" />', '<link w="662" i="1" />']
-[' identifier="waterdetector" ID="650" ']
-['<link w="247" i="1" />', '<link w="663" i="1" />']
-['<link w="657" i="1" />', '<link w="656" i="1" />']
-[' identifier="orcomponent" ID="658" ']
-['<link w="664" i="1" />', '<link w="667" i="0" />', '<link w="674" i="0" />']
-[' identifier="orcomponent" ID="659" ']
-['<link w="674" i="1" />', '<link w="675" i="1" />', '<link w="676" i="0" />']
-[' identifier="orcomponent" ID="660" ']
-['<link w="676" i="1" />', '<link w="680" i="1" />', '<link w="685" i="1" />']
-[' identifier="fabricator" ID="679" ']
-['<link w="912" i="0" />']
-[' identifier="smokedetector" ID="687" ']
-['<link w="710" i="0" />']
-[' identifier="orcomponent" ID="688" ']
-['<link w="693" i="1" />', '<link w="694" i="1" />', '<link w="701" i="0" />']
-[' identifier="orcomponent" ID="689" ']
-['<link w="701" i="1" />', '<link w="702" i="1" />', '<link w="703" i="0" />']
-[' identifier="orcomponent" ID="690" ']
-['<link w="703" i="1" />', '<link w="704" i="1" />', '<link w="707" i="0" />']
-[' identifier="orcomponent" ID="691" ']
-['<link w="707" i="1" />', '<link w="710" i="1" />', '<link w="711" i="1" />']
-[' identifier="waterdetector" ID="708" ']
-['<link w="243" i="1" />', '<link w="667" i="1" />']
-[' identifier="dockinghatch" ID="719" ']
-['<link w="757" i="0" />', '<link w="758" i="0" />', '<link w="503" i="1" />', '<link w="759" i="0" />', '<link w="760" i="0" />', '<link w="761" i="0" />']
-[' identifier="junctionbox" ID="735" ']
-['<link w="244" i="1" />', '<link w="370" i="1" />', '<link w="558" i="1" />', '<link w="736" i="1" />', '<link w="1682" i="0" />']
-[' identifier="delaycomponent" ID="751" ']
-['<link w="761" i="1" />', '<link w="762" i="0" />', '<link w="763" i="0" />']
-[' identifier="notcomponent" ID="752" ']
-['<link w="760" i="1" />', '<link w="764" i="0" />']
-[' identifier="delaycomponent" ID="753" ']
-['<link w="765" i="0" />', '<link w="757" i="1" />']
-[' identifier="andcomponent" ID="754" ']
-['<link w="621" i="1" />', '<link w="764" i="1" />', '<link w="758" i="1" />']
-[' identifier="andcomponent" ID="755" ']
-['<link w="622" i="1" />', '<link w="759" i="1" />', '<link w="762" i="1" />', '<link w="765" i="1" />', '<link w="766" i="0" />']
-[' identifier="hatch" ID="756" ']
-['<link w="763" i="1" />', '<link w="766" i="1" />']
-[' identifier="windoweddoorwbuttons" ID="774" ']
-['<link w="780" i="0" />']
-[' identifier="delaycomponent" ID="775" ']
-['<link w="781" i="0" />', '<link w="782" i="0" />']
-[' identifier="andcomponent" ID="776" ']
-['<link w="783" i="0" />', '<link w="782" i="1" />', '<link w="780" i="1" />']
-[' identifier="notcomponent" ID="777" ']
-['<link w="784" i="0" />', '<link w="783" i="1" />']
-[' identifier="motiondetector" ID="778" ']
-['<link w="781" i="1" />', '<link w="784" i="1" />']
-[' identifier="periscope" ID="893" ']
-['<link w="1063" i="0" />', '<link w="1064" i="0" />']
-[' identifier="orcomponent" ID="897" ']
-['<link w="1303" i="0" />', '<link w="1302" i="0" />', '<link w="1304" i="1" />']
-[' identifier="deconstructor" ID="899" ']
-['<link w="913" i="0" />']
-[' identifier="junctionbox" ID="902" ']
-['<link w="1683" i="1" />', '<link w="1684" i="1" />', '<link w="1685" i="1" />', '<link w="1686" i="0" />', '<link w="1687" i="0" />']
-[' identifier="junctionbox" ID="910" ']
-['<link w="912" i="1" />', '<link w="913" i="1" />', '<link w="914" i="1" />', '<link w="942" i="0" />', '<link w="1451" i="0" />']
-[' identifier="lamp" ID="911" ']
-['<link w="1331" i="0" />']
-[' identifier="waterdetector" ID="924" ']
-['<link w="927" i="0" />']
-[' identifier="ductblock" ID="925" ']
-['<link w="927" i="1" />']
-[' identifier="smallpump" ID="931" ']
-['<link w="942" i="1" />', '<link w="933" i="0" />']
-[' identifier="waterdetector" ID="932" ']
-['<link w="933" i="1" />']
-[' identifier="delaycomponent" ID="934" ']
-['<link w="1295" i="0" />', '<link w="644" i="0" />']
-[' identifier="andcomponent" ID="937" ']
-['<link w="935" i="0" />', '<link w="644" i="1" />', '<link w="936" i="0" />']
-[' identifier="notcomponent" ID="938" ']
-['<link w="1297" i="0" />', '<link w="935" i="1" />']
-[' identifier="motiondetector" ID="939" ']
-['<link w="1295" i="1" />', '<link w="1297" i="1" />']
-[' identifier="hatchwbuttons" ID="940" ']
-['<link w="936" i="1" />']
-[' identifier="medicalfabricator" ID="1027" ']
-['<link w="505" i="1" />']
-['<link w="1371" i="1" />']
-[' identifier="largeturrethardpoint" ID="1061" ']
-['<link w="896" i="1" />', '<link w="1062" i="1" />', '<link w="1063" i="1" />', '<link w="1064" i="1" />', '<link w="1409" i="0" />']
-[' identifier="periscope" ID="1067" ']
-['<link w="1119" i="0" />', '<link w="1129" i="0" />']
-[' identifier="searchlight" ID="1071" ']
-['<link w="1098" i="0" />', '<link w="1093" i="0" />', '<link w="1139" i="0" />']
-[' identifier="memorycomponent" ID="1072" ']
-['<link w="1112" i="0" />']
-[' identifier="delaycomponent" ID="1073" ']
-['<link w="1129" i="1" />', '<link w="1078" i="0" />']
-[' identifier="memorycomponent" ID="1074" ']
-['<link w="1080" i="0" />', '<link w="1097" i="0" />', '<link w="1079" i="0" />', '<link w="1099" i="0" />', '<link w="1113" i="0" />']
-[' identifier="greatercomponent" ID="1075" ']
-['<link w="1099" i="1" />', '<link w="1112" i="1" />', '<link w="1097" i="1" />']
-[' identifier="addercomponent" ID="1076" ']
-['<link w="1079" i="1" />', '<link w="1078" i="1" />', '<link w="1080" i="1" />']
-[' identifier="relaycomponent" ID="1077" ']
-['<link w="1120" i="0" />', '<link w="1115" i="0" />', '<link w="1121" i="0" />']
-[' identifier="signalcheckcomponent" ID="1081" ']
-['<link w="1114" i="0" />', '<link w="1115" i="1" />']
-[' identifier="signalcheckcomponent" ID="1082" ']
-['<link w="1116" i="0" />', '<link w="1090" i="0" />']
-[' identifier="relaycomponent" ID="1083" ']
-['<link w="1122" i="0" />', '<link w="1090" i="1" />', '<link w="1123" i="0" />']
-[' identifier="signalcheckcomponent" ID="1084" ']
-['<link w="1118" i="0" />', '<link w="1091" i="0" />']
-[' identifier="signalcheckcomponent" ID="1085" ']
-['<link w="1117" i="0" />', '<link w="1092" i="0" />']
-[' identifier="relaycomponent" ID="1086" ']
-['<link w="1124" i="0" />', '<link w="1092" i="1" />', '<link w="1094" i="0" />']
-[' identifier="relaycomponent" ID="1087" ']
-['<link w="1125" i="0" />', '<link w="1091" i="1" />', '<link w="1093" i="1" />']
-[' identifier="relaycomponent" ID="1088" ']
-['<link w="1113" i="1" />', '<link w="1114" i="1" />', '<link w="1116" i="1" />', '<link w="1117" i="1" />', '<link w="1118" i="1" />']
-[' identifier="relaycomponent" ID="1089" ']
-['<link w="1119" i="1" />', '<link w="1120" i="1" />', '<link w="1122" i="1" />', '<link w="1124" i="1" />', '<link w="1125" i="1" />']
-[' identifier="relaycomponent" ID="1095" ']
-['<link w="1096" i="1" />', '<link w="1098" i="1" />', '<link w="1126" i="0" />', '<link w="1127" i="0" />', '<link w="1397" i="0" />']
-[' identifier="searchlight" ID="1104" ']
-['<link w="1126" i="1" />', '<link w="1123" i="1" />', '<link w="1140" i="0" />']
-[' identifier="searchlight" ID="1110" ']
-['<link w="1127" i="1" />', '<link w="1121" i="1" />', '<link w="1138" i="0" />']
-[' identifier="ductblock" ID="1132" ']
-['<link w="1135" i="1" />']
-[' identifier="relaycomponent" ID="1136" ']
-['<link w="1686" i="1" />', '<link w="1164" i="1" />', '<link w="1165" i="1" />', '<link w="1166" i="1" />', '<link w="1168" i="1" />', '<link w="1391" i="1" />']
-[' identifier="switch" ID="1137" ']
-['<link w="1138" i="1" />', '<link w="1139" i="1" />', '<link w="1140" i="1" />', '<link w="1398" i="0" />']
-[' identifier="relaycomponent" ID="1152" ']
-['<link w="1687" i="1" />', '<link w="1159" i="1" />', '<link w="1160" i="1" />', '<link w="1161" i="1" />', '<link w="1162" i="1" />', '<link w="1163" i="1" />']
-[' identifier="signalcheckcomponent" ID="1153" ']
-['<link w="1585" i="1" />', '<link w="1591" i="0" />']
-[' identifier="signalcheckcomponent" ID="1154" ']
-['<link w="1584" i="1" />', '<link w="1589" i="0" />']
-[' identifier="wificomponent" ID="1155" ']
-['<link w="1547" i="0" />', '<link w="1584" i="0" />', '<link w="1585" i="0" />']
-[' identifier="signalcheckcomponent" ID="1156" ']
-['<link w="1547" i="1" />', '<link w="1546" i="0" />']
-[' identifier="detonator" ID="1157" ']
-['<link w="1546" i="1" />', '<link w="1589" i="1" />', '<link w="1591" i="1" />']
-[' identifier="textdisplay" ID="1180" ']
-['<link w="1183" i="1" />']
-[' identifier="textdisplay" ID="1181" ']
-['<link w="1185" i="0" />']
-[' identifier="wificomponent" ID="1182" ']
-['<link w="1185" i="1" />', '<link w="1202" i="0" />']
-[' identifier="memorycomponent" ID="1184" ']
-['<link w="1191" i="0" />']
-[' identifier="concatcomponent" ID="1186" ']
-['<link w="1191" i="1" />', '<link w="1190" i="1" />', '<link w="1193" i="0" />']
-[' identifier="concatcomponent" ID="1187" ']
-['<link w="1195" i="0" />', '<link w="1194" i="1" />', '<link w="1197" i="0" />']
-[' identifier="memorycomponent" ID="1188" ']
-['<link w="1195" i="1" />']
-[' identifier="wificomponent" ID="1189" ']
-['<link w="1193" i="1" />']
-[' identifier="wificomponent" ID="1192" ']
-['<link w="1197" i="1" />']
-[' identifier="oscillator" ID="1196" ']
-['<link w="1280" i="0" />', '<link w="1201" i="0" />', '<link w="1279" i="0" />']
-[' identifier="concatcomponent" ID="1198" ']
-['<link w="1200" i="0" />', '<link w="1201" i="1" />', '<link w="1202" i="1" />']
-[' identifier="memorycomponent" ID="1199" ']
-['<link w="1200" i="1" />']
-['<link w="1258" i="0" />']
-['<link w="1265" i="0" />']
-[' identifier="lever" ID="1205" ']
-['<link w="1211" i="0" />', '<link w="1235" i="0" />', '<link w="1239" i="0" />', '<link w="1261" i="0" />', '<link w="1262" i="0" />']
-[' identifier="textdisplay" ID="1206" ']
-['<link w="1243" i="0" />']
-[' identifier="delaycomponent" ID="1207" ']
-['<link w="1211" i="1" />', '<link w="1209" i="0" />']
-[' identifier="andcomponent" ID="1208" ']
-['<link w="1209" i="1" />', '<link w="1266" i="0" />', '<link w="1210" i="1" />']
-[' identifier="switch" ID="1212" ']
-['<link w="1259" i="0" />', '<link w="1260" i="0" />', '<link w="1266" i="1" />', '<link w="1481" i="0" />']
-[' identifier="memorycomponent" ID="1214" ']
-['<link w="1255" i="0" />', '<link w="1256" i="0" />']
-[' identifier="subtractcomponent" ID="1215" ']
-['<link w="1220" i="0" />', '<link w="1219" i="1" />', '<link w="1222" i="0" />', '<link w="1226" i="0" />', '<link w="1243" i="1" />']
-[' identifier="memorycomponent" ID="1217" ']
-['<link w="1227" i="0" />', '<link w="1231" i="0" />', '<link w="1220" i="1" />']
-[' identifier="equalscomponent" ID="1218" ']
-['<link w="1222" i="1" />', '<link w="1224" i="0" />', '<link w="1228" i="0" />']
-[' identifier="memorycomponent" ID="1221" ']
-['<link w="1224" i="1" />']
-[' identifier="relaycomponent" ID="1223" ']
-['<link w="1226" i="1" />', '<link w="1228" i="1" />', '<link w="1236" i="0" />', '<link w="1227" i="1" />']
-[' identifier="andcomponent" ID="1225" ']
-['<link w="1230" i="0" />', '<link w="1241" i="0" />', '<link w="1231" i="1" />']
-[' identifier="memorycomponent" ID="1229" ']
-['<link w="1230" i="1" />']
-[' identifier="memorycomponent" ID="1232" ']
-['<link w="1234" i="0" />']
-[' identifier="andcomponent" ID="1233" ']
-['<link w="1234" i="1" />', '<link w="1240" i="0" />', '<link w="1236" i="1" />']
-[' identifier="notcomponent" ID="1237" ']
-['<link w="1235" i="1" />', '<link w="1241" i="1" />']
-[' identifier="notcomponent" ID="1238" ']
-['<link w="1239" i="1" />', '<link w="1240" i="1" />']
-[' identifier="colorcomponent" ID="1246" ']
-['<link w="1263" i="0" />', '<link w="1264" i="0" />', '<link w="1255" i="1" />', '<link w="1253" i="0" />', '<link w="1265" i="1" />']
-[' identifier="colorcomponent" ID="1247" ']
-['<link w="1213" i="0" />', '<link w="1257" i="0" />', '<link w="1256" i="1" />', '<link w="1254" i="0" />', '<link w="1258" i="1" />', '<link w="1487" i="0" />']
-[' identifier="memorycomponent" ID="1248" ']
-['<link w="1253" i="1" />', '<link w="1254" i="1" />']
-[' identifier="signalcheckcomponent" ID="1249" ']
-['<link w="1261" i="1" />', '<link w="1263" i="1" />']
-[' identifier="signalcheckcomponent" ID="1250" ']
-['<link w="1262" i="1" />', '<link w="1264" i="1" />']
-[' identifier="signalcheckcomponent" ID="1251" ']
-['<link w="1259" i="1" />', '<link w="1213" i="1" />']
-[' identifier="signalcheckcomponent" ID="1252" ']
-['<link w="1260" i="1" />', '<link w="1257" i="1" />']
-[' identifier="concatcomponent" ID="1267" ']
-['<link w="1277" i="0" />', '<link w="1279" i="1" />', '<link w="1273" i="0" />']
-[' identifier="wificomponent" ID="1268" ']
-['<link w="1274" i="0" />', '<link w="1273" i="1" />']
-[' identifier="greatercomponent" ID="1269" ']
-['<link w="1275" i="0" />', '<link w="1274" i="1" />', '<link w="1276" i="0" />', '<link w="1282" i="0" />']
-[' identifier="signalcheckcomponent" ID="1270" ']
-['<link w="1276" i="1" />', '<link w="1280" i="1" />']
-[' identifier="memorycomponent" ID="1271" ']
-['<link w="1275" i="1" />']
-[' identifier="memorycomponent" ID="1272" ']
-['<link w="1277" i="1" />']
-[' identifier="alarmbuzzer" ID="1278" ']
-['<link w="1282" i="1" />']
-[' identifier="wificomponent" ID="1281" ']
-['<link w="1284" i="1" />']
-[' identifier="wificomponent" ID="1283" ']
-['<link w="1285" i="1" />']
-[' identifier="motiondetector" ID="1286" ']
-['<link w="1294" i="0" />']
-[' identifier="motiondetector" ID="1287" ']
-['<link w="1308" i="0" />']
-[' identifier="motiondetector" ID="1288" ']
-['<link w="1296" i="0" />']
-[' identifier="motiondetector" ID="1289" ']
-['<link w="1298" i="0" />']
-[' identifier="motiondetector" ID="1290" ']
-['<link w="1307" i="0" />']
-[' identifier="orcomponent" ID="1291" ']
-['<link w="1296" i="1" />', '<link w="1298" i="1" />', '<link w="1299" i="0" />']
-[' identifier="orcomponent" ID="1292" ']
-['<link w="1299" i="1" />', '<link w="1307" i="1" />', '<link w="1302" i="1" />', '<link w="1367" i="0" />']
-[' identifier="orcomponent" ID="1293" ']
-['<link w="1308" i="1" />', '<link w="1294" i="1" />', '<link w="1303" i="1" />', '<link w="1368" i="0" />']
-[' identifier="signalcheckcomponent" ID="1300" ']
-['<link w="1367" i="1" />', '<link w="1305" i="0" />']
-[' identifier="textdisplay" ID="1301" ']
-['<link w="1305" i="1" />', '<link w="1306" i="0" />']
-[' identifier="alarmbuzzer" ID="1311" ']
-['<link w="1315" i="0" />']
-[' identifier="greatercomponent" ID="1312" ']
-['<link w="1314" i="0" />', '<link w="1316" i="1" />', '<link w="1315" i="1" />']
-[' identifier="memorycomponent" ID="1313" ']
-['<link w="1314" i="1" />']
-[' identifier="relaycomponent" ID="1328" ']
-['<link w="205" i="1" />', '<link w="208" i="1" />', '<link w="209" i="1" />', '<link w="433" i="1" />', '<link w="742" i="1" />', '<link w="1698" i="1" />']
-[' identifier="relaycomponent" ID="1329" ']
-['<link w="204" i="1" />', '<link w="1335" i="1" />', '<link w="1336" i="1" />', '<link w="1337" i="1" />', '<link w="1390" i="0" />', '<link w="1679" i="1" />']
-[' identifier="relaycomponent" ID="1330" ']
-['<link w="142" i="1" />', '<link w="1331" i="1" />', '<link w="1332" i="1" />', '<link w="1333" i="1" />', '<link w="1334" i="1" />']
-[' identifier="signalcheckcomponent" ID="1366" ']
-['<link w="1368" i="1" />', '<link w="1306" i="1" />']
-[' identifier="lamp" ID="1370" ']
-['<link w="1679" i="0" />']
-[' identifier="lamp" ID="1388" ']
-['<link w="1390" i="1" />']
-[' identifier="dischargecoil" ID="1389" ']
-['<link w="1412" i="1" />', '<link w="1413" i="1" />', '<link w="1415" i="1" />', '<link w="1434" i="1" />']
-[' identifier="searchlight" ID="1396" ']
-['<link w="1397" i="1" />', '<link w="1094" i="1" />', '<link w="1398" i="1" />']
-[' identifier="textdisplay" ID="1403" ']
-['<link w="1416" i="1" />']
-[' identifier="switch" ID="1407" ']
-['<link w="1408" i="1" />', '<link w="1409" i="1" />', '<link w="1410" i="1" />']
-[' identifier="waterdetector" ID="1411" ']
-['<link w="1414" i="0" />']
-[' identifier="smallpump" ID="1433" ']
-['<link w="1417" i="1" />', '<link w="1414" i="1" />']
-[' identifier="waterdetector" ID="1444" ']
-['<link w="1448" i="0" />']
-[' identifier="andcomponent" ID="1445" ']
-['<link w="1448" i="1" />', '<link w="1449" i="0" />', '<link w="1450" i="0" />']
-[' identifier="notcomponent" ID="1446" ']
-['<link w="1690" i="1" />', '<link w="1449" i="1" />']
-[' identifier="smallpump" ID="1447" ']
-['<link w="1451" i="1" />', '<link w="1450" i="1" />']
-[' identifier="dockinghatch" ID="1452" ']
-['<link w="1473" i="1" />', '<link w="1689" i="0" />']
-[' identifier="button" ID="1453" ']
-['<link w="1430" i="0" />']
-[' identifier="wificomponent" ID="1455" ']
-['<link w="1612" i="0" />']
-[' identifier="terminal" ID="1457" ']
-['<link w="1606" i="0" />', '<link w="1605" i="0" />']
-[' identifier="hatch" ID="1471" ']
-['<link w="1429" i="0" />', '<link w="1430" i="1" />', '<link w="1431" i="0" />', '<link w="1432" i="0" />', '<link w="1690" i="0" />', '<link w="1689" i="1" />']
-[' identifier="lever" ID="1474" ']
-['<link w="1484" i="0" />', '<link w="1485" i="0" />']
-[' identifier="signalcheckcomponent" ID="1475" ']
-['<link w="1476" i="0" />', '<link w="1477" i="0" />']
-[' identifier="delaycomponent" ID="1478" ']
-['<link w="1484" i="1" />', '<link w="1483" i="0" />']
-[' identifier="andcomponent" ID="1479" ']
-['<link w="1483" i="1" />', '<link w="1481" i="1" />', '<link w="1482" i="1" />']
-[' identifier="alarmbuzzer" ID="1480" ']
-['<link w="1485" i="1" />']
-['<link w="1487" i="1" />']
-[' identifier="button" ID="1488" ']
-['<link w="1431" i="1" />']
-[' identifier="windoweddoorwbuttons" ID="1489" ']
-['<link w="1427" i="0" />', '<link w="1495" i="0" />', '<link w="1428" i="0" />']
-[' identifier="delaycomponent" ID="1490" ']
-['<link w="1496" i="0" />', '<link w="1497" i="0" />']
-[' identifier="andcomponent" ID="1491" ']
-['<link w="1498" i="0" />', '<link w="1497" i="1" />', '<link w="1495" i="1" />']
-[' identifier="notcomponent" ID="1492" ']
-['<link w="1499" i="0" />', '<link w="1498" i="1" />']
-[' identifier="motiondetector" ID="1493" ']
-['<link w="1496" i="1" />', '<link w="1499" i="1" />']
-[' identifier="andcomponent" ID="1500" ']
-['<link w="1432" i="1" />', '<link w="1428" i="1" />', '<link w="1427" i="1" />', '<link w="1429" i="1" />']
-[' identifier="wificomponent" ID="1501" ']
-['<link w="1508" i="0" />', '<link w="1630" i="0" />']
-[' identifier="signalcheckcomponent" ID="1502" ']
-['<link w="1508" i="1" />', '<link w="1509" i="0" />']
-[' identifier="detonator" ID="1506" ']
-['<link w="1509" i="1" />', '<link w="1631" i="0" />']
-[' identifier="wificomponent" ID="1510" ']
-['<link w="1607" i="0" />']
-[' identifier="wificomponent" ID="1511" ']
-['<link w="1605" i="1" />']
-[' identifier="wificomponent" ID="1512" ']
-['<link w="1520" i="0" />', '<link w="1627" i="0" />']
-[' identifier="signalcheckcomponent" ID="1513" ']
-['<link w="1520" i="1" />', '<link w="1519" i="0" />']
-[' identifier="detonator" ID="1517" ']
-['<link w="1519" i="1" />', '<link w="1628" i="0" />']
-[' identifier="wificomponent" ID="1521" ']
-['<link w="1529" i="0" />', '<link w="1645" i="0" />']
-[' identifier="signalcheckcomponent" ID="1522" ']
-['<link w="1529" i="1" />', '<link w="1528" i="0" />']
-[' identifier="detonator" ID="1526" ']
-['<link w="1528" i="1" />', '<link w="1644" i="0" />']
-[' identifier="wificomponent" ID="1530" ']
-['<link w="1538" i="0" />', '<link w="1646" i="0" />', '<link w="1647" i="0" />']
-[' identifier="signalcheckcomponent" ID="1531" ']
-['<link w="1538" i="1" />', '<link w="1537" i="0" />']
-[' identifier="detonator" ID="1535" ']
-['<link w="1537" i="1" />', '<link w="1648" i="0" />', '<link w="1649" i="0" />']
-[' identifier="lamp" ID="1539" ']
-['<link w="1682" i="1" />']
-[' identifier="detonator" ID="1540" ']
-['<link w="1680" i="1" />', '<link w="1681" i="1" />']
-[' identifier="signalcheckcomponent" ID="1544" ']
-['<link w="1614" i="1" />', '<link w="1623" i="0" />']
-[' identifier="wificomponent" ID="1548" ']
-['<link w="1476" i="1" />', '<link w="1556" i="0" />']
-[' identifier="signalcheckcomponent" ID="1549" ']
-['<link w="1556" i="1" />', '<link w="1555" i="0" />']
-[' identifier="detonator" ID="1553" ']
-['<link w="1477" i="1" />', '<link w="1555" i="1" />']
-[' identifier="wificomponent" ID="1557" ']
-['<link w="1565" i="0" />', '<link w="1633" i="0" />', '<link w="1636" i="0" />']
-[' identifier="signalcheckcomponent" ID="1558" ']
-['<link w="1565" i="1" />', '<link w="1564" i="0" />']
-[' identifier="detonator" ID="1562" ']
-['<link w="1564" i="1" />', '<link w="1634" i="0" />', '<link w="1637" i="0" />']
-[' identifier="wificomponent" ID="1566" ']
-['<link w="1574" i="0" />', '<link w="1642" i="0" />']
-[' identifier="signalcheckcomponent" ID="1567" ']
-['<link w="1574" i="1" />', '<link w="1573" i="0" />']
-[' identifier="detonator" ID="1571" ']
-['<link w="1573" i="1" />', '<link w="1643" i="0" />']
-[' identifier="wificomponent" ID="1575" ']
-['<link w="1583" i="0" />', '<link w="1655" i="0" />']
-[' identifier="signalcheckcomponent" ID="1576" ']
-['<link w="1583" i="1" />', '<link w="1582" i="0" />']
-[' identifier="detonator" ID="1580" ']
-['<link w="1582" i="1" />', '<link w="1656" i="0" />']
-[' identifier="wificomponent" ID="1592" ']
-['<link w="1614" i="0" />', '<link w="1621" i="0" />']
-[' identifier="signalcheckcomponent" ID="1593" ']
-['<link w="1646" i="1" />', '<link w="1649" i="1" />']
-[' identifier="signalcheckcomponent" ID="1594" ']
-['<link w="1647" i="1" />', '<link w="1648" i="1" />']
-[' identifier="wificomponent" ID="1595" ']
-['<link w="1603" i="0" />', '<link w="1639" i="0" />']
-[' identifier="signalcheckcomponent" ID="1596" ']
-['<link w="1603" i="1" />', '<link w="1602" i="0" />']
-[' identifier="detonator" ID="1600" ']
-['<link w="1602" i="1" />', '<link w="1640" i="0" />']
-[' identifier="signalcheckcomponent" ID="1604" ']
-['<link w="1607" i="1" />', '<link w="1606" i="1" />']
-[' identifier="wificomponent" ID="1608" ']
-['<link w="1611" i="0" />']
-[' identifier="terminal" ID="1609" ']
-['<link w="1613" i="0" />', '<link w="1612" i="1" />']
-[' identifier="signalcheckcomponent" ID="1610" ']
-['<link w="1611" i="1" />', '<link w="1613" i="1" />']
-[' identifier="signalcheckcomponent" ID="1615" ']
-['<link w="1621" i="1" />', '<link w="1625" i="0" />']
-[' identifier="detonator" ID="1619" ']
-['<link w="1623" i="1" />', '<link w="1625" i="1" />']
-[' identifier="signalcheckcomponent" ID="1624" ']
-['<link w="1627" i="1" />', '<link w="1628" i="1" />']
-[' identifier="signalcheckcomponent" ID="1626" ']
-['<link w="1630" i="1" />', '<link w="1631" i="1" />']
-[' identifier="signalcheckcomponent" ID="1629" ']
-['<link w="1633" i="1" />', '<link w="1634" i="1" />']
-[' identifier="signalcheckcomponent" ID="1632" ']
-['<link w="1636" i="1" />', '<link w="1637" i="1" />']
-[' identifier="signalcheckcomponent" ID="1635" ']
-['<link w="1639" i="1" />', '<link w="1640" i="1" />']
-[' identifier="signalcheckcomponent" ID="1638" ']
-['<link w="1642" i="1" />', '<link w="1643" i="1" />']
-[' identifier="signalcheckcomponent" ID="1641" ']
-['<link w="1645" i="1" />', '<link w="1644" i="1" />']
-[' identifier="signalcheckcomponent" ID="1650" ']
-['<link w="1655" i="1" />', '<link w="1656" i="1" />']
-[' identifier="signalcheckcomponent" ID="1652" ']
-['<link w="1677" i="1" />', '<link w="1681" i="0" />']
-[' identifier="signalcheckcomponent" ID="1653" ']
-['<link w="1678" i="1" />', '<link w="1680" i="0" />']
-[' identifier="wificomponent" ID="1654" ']
-['<link w="1677" i="0" />', '<link w="1678" i="0" />']
-[' identifier="depthchargetube" ID="1659" ']
-['<link w="1675" i="1" />']
-[' identifier="signalcheckcomponent" ID="1672" ']
-['<link w="1674" i="1" />', '<link w="1675" i="0" />']
-[' identifier="wificomponent" ID="1673" ']
-['<link w="1674" i="0" />']
-[' identifier="lamp" ID="1697" ']
-['<link w="1698" i="0" />']
+ identifier="windoweddoorwbuttons" ID="1" 
+<input name="set_state">
+        <link w="174" i="0" />
+      
+
+
+ identifier="oxygentankshelf2" ID="2" 
+<input name="power_in">
+        <link w="1160" i="0" />
+      
+
+
+ identifier="divingsuitlocker" ID="6" 
+<input name="power_in">
+        <link w="1168" i="0" />
+      
+
+
+ identifier="hatchwbuttons" ID="10" 
+<input name="set_state">
+        <link w="18" i="0" />
+      
+
+
+ identifier="notcomponent" ID="19" 
+<input name="signal_in">
+        <link w="11" i="0" />
+      <output name="signal_out">
+        <link w="12" i="0" />
+      
+
+
+ identifier="doorwbuttons" ID="20" 
+<input name="set_state">
+        <link w="29" i="0" />
+      <output name="state_out">
+        <link w="30" i="0" />
+      
+
+
+ identifier="doorwbuttons" ID="21" 
+<input name="set_state">
+        <link w="31" i="0" />
+      <output name="state_out">
+        <link w="620" i="0" />
+      
+
+
+ identifier="waterdetector" ID="22" 
+<output name="signal_out">
+        <link w="34" i="0" />
+      
+
+
+ identifier="andcomponent" ID="23" 
+<input name="signal_in1">
+        <link w="32" i="1" />
+      <input name="signal_in2">
+        <link w="30" i="1" />
+      <output name="signal_out">
+        <link w="31" i="1" />
+      
+
+
+ identifier="andcomponent" ID="24" 
+<input name="signal_in1">
+        <link w="34" i="1" />
+      <input name="signal_in2">
+        <link w="35" i="0" />
+      <output name="signal_out">
+        <link w="36" i="0" />
+      
+
+
+ identifier="notcomponent" ID="25" 
+<input name="signal_in">
+        <link w="33" i="1" />
+      <output name="signal_out">
+        <link w="35" i="1" />
+      
+
+
+ identifier="smallpump" ID="26" 
+<input name="power_in">
+        <link w="558" i="0" />
+      <input name="set_active">
+        <link w="36" i="1" />
+      
+
+
+ identifier="notcomponent" ID="49" 
+<input name="signal_in">
+        <link w="40" i="0" />
+      <output name="signal_out">
+        <link w="41" i="0" />
+      
+
+
+ identifier="andcomponent" ID="50" 
+<input name="signal_in1">
+        <link w="41" i="1" />
+      <input name="signal_in2">
+        <link w="42" i="0" />
+      <output name="signal_out">
+        <link w="48" i="0" />
+      
+
+
+ identifier="delaycomponent" ID="51" 
+<input name="signal_in">
+        <link w="47" i="0" />
+      <output name="signal_out">
+        <link w="42" i="1" />
+      
+
+
+ identifier="motiondetector" ID="52" 
+<output name="state_out">
+        <link w="47" i="1" />
+      
+
+
+ identifier="hatchwbuttons" ID="54" 
+<input name="set_state">
+        <link w="60" i="0" />
+      
+
+
+ identifier="notcomponent" ID="61" 
+<input name="signal_in">
+        <link w="55" i="0" />
+      <output name="signal_out">
+        <link w="56" i="0" />
+      
+
+
+ identifier="andcomponent" ID="62" 
+<input name="signal_in1">
+        <link w="56" i="1" />
+      <input name="signal_in2">
+        <link w="57" i="0" />
+      <output name="signal_out">
+        <link w="60" i="1" />
+      
+
+
+ identifier="delaycomponent" ID="63" 
+<input name="signal_in">
+        <link w="58" i="0" />
+      <output name="signal_out">
+        <link w="57" i="1" />
+      
+
+
+ identifier="doorwbuttons" ID="64" 
+<input name="set_state">
+        <link w="66" i="0" />
+      
+
+
+ identifier="notcomponent" ID="69" 
+<input name="signal_in">
+        <link w="65" i="0" />
+      <output name="signal_out">
+        <link w="68" i="0" />
+      
+
+
+ identifier="andcomponent" ID="71" 
+<input name="signal_in1">
+        <link w="68" i="1" />
+      <input name="signal_in2">
+        <link w="70" i="0" />
+      <output name="signal_out">
+        <link w="66" i="1" />
+      
+
+
+ identifier="doorwbuttons" ID="73" 
+<input name="set_state">
+        <link w="75" i="0" />
+      
+
+
+ identifier="notcomponent" ID="78" 
+<input name="signal_in">
+        <link w="74" i="0" />
+      <output name="signal_out">
+        <link w="77" i="0" />
+      
+
+
+ identifier="junctionbox" ID="81" 
+<output name="power">
+        <link w="736" i="0" />
+      
+
+
+ identifier="junctionbox" ID="83" 
+<output name="power">
+        <link w="1683" i="0" />
+      
+
+
+ identifier="pump" ID="84" 
+<input name="power_in">
+        <link w="179" i="1" />
+      <input name="set_targetlevel">
+        <link w="605" i="0" />
+      <output name="condition_out">
+        <link w="1284" i="0" />
+      
+
+
+ identifier="pump" ID="85" 
+<input name="power_in">
+        <link w="180" i="1" />
+      <input name="set_targetlevel">
+        <link w="652" i="0" />
+      <output name="condition_out">
+        <link w="1285" i="0" />
+      
+
+
+ identifier="junctionbox" ID="86" 
+<output name="power">
+        <link w="113" i="0" />
+      
+
+
+ identifier="junctionbox" ID="87" 
+<output name="power">
+        <link w="914" i="0" />
+      
+
+
+ identifier="supercapacitor" ID="89" 
+<output name="power_out">
+        <link w="1412" i="0" />
+      <input name="power_in">
+        <link w="99" i="1" />
+      
+
+
+ identifier="supercapacitor" ID="92" 
+<output name="power_out">
+        <link w="1413" i="0" />
+      <input name="power_in">
+        <link w="100" i="1" />
+      
+
+
+ identifier="coilgun" ID="102" 
+<input name="power_in">
+        <link w="108" i="1" />
+      <input name="position_in">
+        <link w="588" i="0" />
+      <input name="trigger_in">
+        <link w="589" i="0" />
+      <input name="set_light">
+        <link w="1410" i="0" />
+      
+
+
+ identifier="coilgun" ID="103" 
+<input name="power_in">
+        <link w="109" i="1" />
+      <input name="position_in">
+        <link w="586" i="0" />
+      <input name="trigger_in">
+        <link w="587" i="0" />
+      <input name="set_light">
+        <link w="1408" i="0" />
+      
+
+
+ identifier="junctionbox" ID="105" 
+<output name="power">
+        <link w="466" i="0" />
+      
+
+
+ identifier="andcomponent" ID="110" 
+<input name="signal_in1">
+        <link w="77" i="1" />
+      <input name="signal_in2">
+        <link w="95" i="0" />
+      <output name="signal_out">
+        <link w="75" i="1" />
+      
+
+
+ identifier="junctionbox" ID="111" 
+<output name="power">
+        <link w="1417" i="0" />
+      
+
+
+ identifier="ductblock" ID="128" 
+<input name="set_state">
+        <link w="643" i="0" />
+      
+
+
+ identifier="junctionbox" ID="133" 
+<output name="power">
+        <link w="1371" i="0" />
+      
+
+
+ identifier="windoweddoorwbuttons" ID="135" 
+<input name="set_state">
+        <link w="224" i="0" />
+      
+
+
+ identifier="waterdetector" ID="140" 
+<output name="signal_out">
+        <link w="463" i="0" />
+      
+
+
+ identifier="navterminal" ID="148" 
+<input name="power_in">
+        <link w="112" i="1" />
+      <output name="velocity_x_out">
+        <link w="82" i="0" />
+      <output name="velocity_y_out">
+        <link w="652" i="1" />
+      <output name="signal_out1">
+        <link w="737" i="0" />
+      <output name="signal_out2">
+        <link w="1434" i="0" />
+      <output name="signal_out3">
+        <link w="721" i="0" />
+      <output name="toggle_docking">
+        <link w="622" i="0" />
+      
+
+
+ identifier="engine" ID="150" 
+<input name="power_in">
+        <link w="116" i="1" />
+      <input name="set_force">
+        <link w="82" i="1" />
+      
+
+
+ identifier="periscope" ID="155" 
+<output name="position_out">
+        <link w="588" i="1" />
+      <output name="trigger_out">
+        <link w="589" i="1" />
+      
+
+
+ identifier="periscope" ID="158" 
+<output name="position_out">
+        <link w="586" i="1" />
+      <output name="trigger_out">
+        <link w="587" i="1" />
+      
+
+
+ identifier="reactor1" ID="162" 
+<output name="power_out">
+        <link w="90" i="1" />
+      <input name="shutdown">
+        <link w="1482" i="0" />
+      <output name="meltdown_warning">
+        <link w="619" i="0" />
+      <output name="fuel_percentage_left">
+        <link w="1416" i="0" />
+      
+
+
+ identifier="statusmonitor" ID="163" 
+<input name="power_in">
+        <link w="113" i="1" />
+      
+
+
+ identifier="oxygenerator" ID="166" 
+<input name="power_in">
+        <link w="1685" i="0" />
+      
+
+
+ identifier="notcomponent" ID="175" 
+<input name="signal_in">
+        <link w="7" i="0" />
+      <output name="signal_out">
+        <link w="8" i="0" />
+      
+
+
+ identifier="andcomponent" ID="176" 
+<input name="signal_in1">
+        <link w="8" i="1" />
+      <input name="signal_in2">
+        <link w="9" i="0" />
+      <output name="signal_out">
+        <link w="174" i="1" />
+      
+
+
+ identifier="motiondetector" ID="177" 
+<output name="state_out">
+        <link w="58" i="1" />
+      
+
+
+ identifier="delaycomponent" ID="184" 
+<input name="signal_in">
+        <link w="17" i="0" />
+      <output name="signal_out">
+        <link w="15" i="0" />
+      
+
+
+ identifier="lamp" ID="185" 
+<input name="power">
+        <link w="1335" i="0" />
+      
+
+
+ identifier="lamp" ID="186" 
+<input name="power">
+        <link w="1336" i="0" />
+      
+
+
+ identifier="lamp" ID="187" 
+<input name="power">
+        <link w="1337" i="0" />
+      
+
+
+ identifier="lamp" ID="188" 
+<input name="power">
+        <link w="1333" i="0" />
+      
+
+
+ identifier="lamp" ID="189" 
+<input name="power">
+        <link w="1332" i="0" />
+      
+
+
+ identifier="lamp" ID="190" 
+<input name="power">
+        <link w="742" i="0" />
+      
+
+
+ identifier="lamp" ID="191" 
+<input name="power">
+        <link w="208" i="0" />
+      
+
+
+ identifier="orcomponent" ID="194" 
+<input name="signal_in1">
+        <link w="662" i="0" />
+      <input name="signal_in2">
+        <link w="663" i="0" />
+      <output name="signal_out">
+        <link w="664" i="0" />
+      
+
+
+ identifier="dischargecoil" ID="196" 
+<input name="power_in">
+        <link w="598" i="1" />
+      <input name="trigger_in">
+        <link w="686" i="1" />
+      
+
+
+ identifier="junctionbox" ID="200" 
+<output name="power">
+        <link w="246" i="0" />
+      
+
+
+ identifier="dividecomponent" ID="206" 
+<input name="signal_in1">
+        <link w="653" i="0" />
+      <input name="signal_in2">
+        <link w="523" i="0" />
+      <output name="signal_out">
+        <link w="725" i="0" />
+      
+
+
+ identifier="lamp" ID="207" 
+<input name="power">
+        <link w="433" i="0" />
+      
+
+
+ identifier="delaycomponent" ID="210" 
+<input name="signal_in">
+        <link w="545" i="0" />
+      <output name="signal_out">
+        <link w="447" i="0" />
+      
+
+
+ identifier="andcomponent" ID="222" 
+<input name="signal_in1">
+        <link w="516" i="0" />
+      <input name="signal_in2">
+        <link w="447" i="1" />
+      <output name="signal_out">
+        <link w="549" i="0" />
+      
+
+
+ identifier="divingsuitlocker" ID="223" 
+<input name="power_in">
+        <link w="1164" i="0" />
+      
+
+
+ identifier="doorwbuttons" ID="226" 
+<input name="set_state">
+        <link w="228" i="0" />
+      
+
+
+ identifier="notcomponent" ID="231" 
+<input name="signal_in">
+        <link w="227" i="0" />
+      <output name="signal_out">
+        <link w="230" i="0" />
+      
+
+
+ identifier="andcomponent" ID="233" 
+<input name="signal_in1">
+        <link w="230" i="1" />
+      <input name="signal_in2">
+        <link w="232" i="0" />
+      <output name="signal_out">
+        <link w="228" i="1" />
+      
+
+
+ identifier="delaycomponent" ID="235" 
+<input name="signal_in">
+        <link w="16" i="0" />
+      <output name="signal_out">
+        <link w="9" i="1" />
+      
+
+
+ identifier="andcomponent" ID="239" 
+<input name="signal_in1">
+        <link w="12" i="1" />
+      <input name="signal_in2">
+        <link w="15" i="1" />
+      <output name="signal_out">
+        <link w="18" i="1" />
+      
+
+
+ identifier="smallpump" ID="240" 
+<input name="power_in">
+        <link w="244" i="0" />
+      <input name="set_active">
+        <link w="243" i="0" />
+      
+
+
+ identifier="smallpump" ID="241" 
+<input name="power_in">
+        <link w="246" i="1" />
+      <input name="set_active">
+        <link w="247" i="0" />
+      
+
+
+ identifier="smallpump" ID="245" 
+<input name="power_in">
+        <link w="628" i="1" />
+      <input name="set_active">
+        <link w="463" i="1" />
+      
+
+
+ identifier="lamp" ID="266" 
+<input name="power">
+        <link w="209" i="0" />
+      
+
+
+ identifier="smallpump" ID="284" 
+<input name="power_in">
+        <link w="370" i="0" />
+      <input name="set_active">
+        <link w="371" i="0" />
+      
+
+
+ identifier="waterdetector" ID="318" 
+<output name="signal_out">
+        <link w="680" i="0" />
+      
+
+
+ identifier="junctionbox" ID="367" 
+<output name="power">
+        <link w="1473" i="0" />
+      
+
+
+ identifier="oscillator" ID="380" 
+<output name="signal_out">
+        <link w="1219" i="0" />
+      
+
+
+ identifier="motiondetector" ID="383" 
+<output name="state_out">
+        <link w="16" i="1" />
+      
+
+
+ identifier="delaycomponent" ID="385" 
+<input name="signal_in">
+        <link w="229" i="0" />
+      <output name="signal_out">
+        <link w="232" i="1" />
+      
+
+
+ identifier="emergencysiren" ID="386" 
+<input name="set_state">
+        <link w="619" i="1" />
+      
+
+
+ identifier="motiondetector" ID="387" 
+<output name="state_out">
+        <link w="229" i="1" />
+      
+
+
+ identifier="notcomponent" ID="389" 
+<input name="signal_in">
+        <link w="149" i="0" />
+      <output name="signal_out">
+        <link w="160" i="0" />
+      
+
+
+ identifier="andcomponent" ID="390" 
+<input name="signal_in1">
+        <link w="160" i="1" />
+      <input name="signal_in2">
+        <link w="197" i="0" />
+      <output name="signal_out">
+        <link w="224" i="1" />
+      
+
+
+ identifier="delaycomponent" ID="391" 
+<input name="signal_in">
+        <link w="219" i="0" />
+      <output name="signal_out">
+        <link w="197" i="1" />
+      
+
+
+ identifier="motiondetector" ID="392" 
+<output name="state_out">
+        <link w="219" i="1" />
+      
+
+
+ identifier="delaycomponent" ID="394" 
+<input name="signal_in">
+        <link w="76" i="0" />
+      <output name="signal_out">
+        <link w="95" i="1" />
+      
+
+
+ identifier="motiondetector" ID="395" 
+<output name="state_out">
+        <link w="76" i="1" />
+      
+
+
+ identifier="delaycomponent" ID="397" 
+<input name="signal_in">
+        <link w="67" i="0" />
+      <output name="signal_out">
+        <link w="70" i="1" />
+      
+
+
+ identifier="motiondetector" ID="398" 
+<output name="state_out">
+        <link w="67" i="1" />
+      
+
+
+ identifier="oxygentankshelf2" ID="400" 
+<input name="power_in">
+        <link w="1161" i="0" />
+      
+
+
+ identifier="divingsuitlocker" ID="406" 
+<input name="power_in">
+        <link w="1166" i="0" />
+      
+
+
+ identifier="oxygentankshelf2" ID="407" 
+<input name="power_in">
+        <link w="1162" i="0" />
+      
+
+
+ identifier="divingsuitlocker" ID="413" 
+<input name="power_in">
+        <link w="1165" i="0" />
+      
+
+
+ identifier="oxygentankshelf2" ID="414" 
+<input name="power_in">
+        <link w="1163" i="0" />
+      
+
+
+ identifier="oxygentankshelf2" ID="421" 
+<input name="power_in">
+        <link w="1159" i="0" />
+      
+
+
+ identifier="divingsuitlocker" ID="425" 
+<input name="power_in">
+        <link w="1391" i="0" />
+      
+
+
+ identifier="oxygentankshelf" ID="444" 
+<input name="power_in">
+        <link w="1684" i="0" />
+      
+
+
+ identifier="memorycomponent" ID="504" 
+<output name="signal_out">
+        <link w="523" i="1" />
+      
+
+
+ identifier="notcomponent" ID="515" 
+<input name="signal_in">
+        <link w="550" i="0" />
+      <output name="signal_out">
+        <link w="516" i="1" />
+      
+
+
+ identifier="motiondetector" ID="517" 
+<output name="state_out">
+        <link w="550" i="1" />
+      
+
+
+ identifier="doorwbuttons" ID="518" 
+<input name="set_state">
+        <link w="549" i="1" />
+      
+
+
+ identifier="hatchwbuttons" ID="529" 
+<input name="set_state">
+        <link w="48" i="1" />
+      
+
+
+ identifier="motiondetector" ID="539" 
+<output name="state_out">
+        <link w="17" i="1" />
+      
+
+
+ identifier="hatchwbuttons" ID="561" 
+<input name="set_state">
+        <link w="567" i="0" />
+      
+
+
+ identifier="delaycomponent" ID="562" 
+<input name="signal_in">
+        <link w="568" i="0" />
+      <output name="signal_out">
+        <link w="569" i="0" />
+      
+
+
+ identifier="andcomponent" ID="563" 
+<input name="signal_in1">
+        <link w="570" i="0" />
+      <input name="signal_in2">
+        <link w="569" i="1" />
+      <output name="signal_out">
+        <link w="567" i="1" />
+      
+
+
+ identifier="notcomponent" ID="564" 
+<input name="signal_in">
+        <link w="571" i="0" />
+      <output name="signal_out">
+        <link w="570" i="1" />
+      
+
+
+ identifier="motiondetector" ID="565" 
+<output name="state_out">
+        <link w="571" i="1" />
+      
+
+
+ identifier="alarmbuzzer" ID="576" 
+<input name="set_state">
+        <link w="711" i="0" />
+      
+
+
+ identifier="alarmbuzzer" ID="580" 
+<input name="set_state">
+        <link w="685" i="0" />
+      
+
+
+ identifier="smokedetector" ID="581" 
+<output name="signal_out">
+        <link w="693" i="0" />
+      
+
+
+ identifier="lightcomponent90" ID="582" 
+<input name="set_state">
+        <link w="620" i="1" />
+      
+
+
+ identifier="button" ID="594" 
+<output name="signal_out">
+        <link w="1415" i="0" />
+      
+
+
+ identifier="relaycomponent" ID="599" 
+<input name="power_in">
+        <link w="198" i="0" />
+      <input name="toggle">
+        <link w="737" i="1" />
+      <output name="power_out">
+        <link w="728" i="1" />
+      <output name="state_out">
+        <link w="657" i="0" />
+      
+
+
+ identifier="waterdetector" ID="600" 
+<output name="signal_out">
+        <link w="1135" i="0" />
+      
+
+
+ identifier="smokedetector" ID="608" 
+<output name="signal_out">
+        <link w="694" i="0" />
+      
+
+
+ identifier="smokedetector" ID="609" 
+<output name="signal_out">
+        <link w="702" i="0" />
+      
+
+
+ identifier="emergencysiren" ID="610" 
+<input name="set_state">
+        <link w="1304" i="0" />
+      
+
+
+ identifier="smokedetector" ID="616" 
+<output name="signal_out">
+        <link w="704" i="0" />
+      
+
+
+ identifier="lamp" ID="618" 
+<input name="power">
+        <link w="1334" i="0" />
+      
+
+
+ identifier="battery" ID="623" 
+<output name="power_out">
+        <link w="195" i="1" />
+      <input name="power_in">
+        <link w="199" i="1" />
+      <output name="charge_%">
+        <link w="637" i="0" />
+      
+
+
+ identifier="battery" ID="624" 
+<output name="power_out">
+        <link w="198" i="1" />
+      <input name="power_in">
+        <link w="560" i="1" />
+      <output name="charge_%">
+        <link w="638" i="0" />
+      
+
+
+ identifier="memorycomponent" ID="625" 
+<output name="signal_out">
+        <link w="632" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="626" 
+<input name="signal_in">
+        <link w="642" i="0" />
+      <output name="signal_out">
+        <link w="633" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="627" 
+<input name="signal_in">
+        <link w="647" i="0" />
+      <output name="signal_out">
+        <link w="634" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="629" 
+<input name="signal_in">
+        <link w="648" i="0" />
+      <output name="signal_out">
+        <link w="635" i="0" />
+      
+
+
+ identifier="colorcomponent" ID="631" 
+<input name="signal_r">
+        <link w="633" i="1" />
+      <input name="signal_g">
+        <link w="634" i="1" />
+      <input name="signal_b">
+        <link w="635" i="1" />
+      <input name="signal_a">
+        <link w="632" i="1" />
+      <output name="signal_out">
+        <link w="656" i="0" />
+      
+
+
+ identifier="addercomponent" ID="636" 
+<input name="signal_in1">
+        <link w="637" i="1" />
+      <input name="signal_in2">
+        <link w="638" i="1" />
+      <output name="signal_out">
+        <link w="653" i="1" />
+      
+
+
+ identifier="memorycomponent" ID="639" 
+<output name="signal_out">
+        <link w="654" i="0" />
+      
+
+
+ identifier="greatercomponent" ID="640" 
+<input name="signal_in1">
+        <link w="725" i="1" />
+      <input name="signal_in2">
+        <link w="654" i="1" />
+      <output name="signal_out">
+        <link w="648" i="1" />
+      
+
+
+ identifier="waterdetector" ID="641" 
+<output name="signal_out">
+        <link w="371" i="1" />
+      
+
+
+ identifier="ductblock" ID="645" 
+<input name="set_state">
+        <link w="649" i="0" />
+      
+
+
+ identifier="waterdetector" ID="646" 
+<output name="signal_out">
+        <link w="662" i="1" />
+      
+
+
+ identifier="waterdetector" ID="650" 
+<output name="signal_out">
+        <link w="663" i="1" />
+      
+
+
+ identifier="lightcomponent90" ID="655" 
+<input name="set_state">
+        <link w="657" i="1" />
+      <input name="set_color">
+        <link w="656" i="1" />
+      
+
+
+ identifier="orcomponent" ID="658" 
+<input name="signal_in1">
+        <link w="664" i="1" />
+      <input name="signal_in2">
+        <link w="667" i="0" />
+      <output name="signal_out">
+        <link w="674" i="0" />
+      
+
+
+ identifier="orcomponent" ID="659" 
+<input name="signal_in1">
+        <link w="674" i="1" />
+      <input name="signal_in2">
+        <link w="675" i="1" />
+      <output name="signal_out">
+        <link w="676" i="0" />
+      
+
+
+ identifier="orcomponent" ID="660" 
+<input name="signal_in1">
+        <link w="676" i="1" />
+      <input name="signal_in2">
+        <link w="680" i="1" />
+      <output name="signal_out">
+        <link w="685" i="1" />
+      
+
+
+ identifier="fabricator" ID="679" 
+<input name="power_in">
+        <link w="912" i="0" />
+      
+
+
+ identifier="smokedetector" ID="687" 
+<output name="signal_out">
+        <link w="710" i="0" />
+      
+
+
+ identifier="orcomponent" ID="688" 
+<input name="signal_in1">
+        <link w="693" i="1" />
+      <input name="signal_in2">
+        <link w="694" i="1" />
+      <output name="signal_out">
+        <link w="701" i="0" />
+      
+
+
+ identifier="orcomponent" ID="689" 
+<input name="signal_in1">
+        <link w="701" i="1" />
+      <input name="signal_in2">
+        <link w="702" i="1" />
+      <output name="signal_out">
+        <link w="703" i="0" />
+      
+
+
+ identifier="orcomponent" ID="690" 
+<input name="signal_in1">
+        <link w="703" i="1" />
+      <input name="signal_in2">
+        <link w="704" i="1" />
+      <output name="signal_out">
+        <link w="707" i="0" />
+      
+
+
+ identifier="orcomponent" ID="691" 
+<input name="signal_in1">
+        <link w="707" i="1" />
+      <input name="signal_in2">
+        <link w="710" i="1" />
+      <output name="signal_out">
+        <link w="711" i="1" />
+      
+
+
+ identifier="waterdetector" ID="708" 
+<output name="signal_out">
+        <link w="667" i="1" />
+      
+
+
+ identifier="dockinghatch" ID="719" 
+<input name="set_state">
+        <link w="758" i="0" />
+      <output name="power">
+        <link w="503" i="1" />
+      <output name="state_out">
+        <link w="761" i="0" />
+      
+
+
+ identifier="junctionbox" ID="735" 
+<output name="power">
+        <link w="1682" i="0" />
+      
+
+
+ identifier="delaycomponent" ID="751" 
+<input name="signal_in">
+        <link w="762" i="0" />
+      <output name="signal_out">
+        <link w="763" i="0" />
+      
+
+
+ identifier="notcomponent" ID="752" 
+<input name="signal_in">
+        <link w="760" i="1" />
+      <output name="signal_out">
+        <link w="764" i="0" />
+      
+
+
+ identifier="delaycomponent" ID="753" 
+<input name="signal_in">
+        <link w="765" i="0" />
+      <output name="signal_out">
+        <link w="757" i="1" />
+      
+
+
+ identifier="andcomponent" ID="754" 
+<input name="signal_in1">
+        <link w="621" i="1" />
+      <input name="signal_in2">
+        <link w="764" i="1" />
+      <output name="signal_out">
+        <link w="758" i="1" />
+      
+
+
+ identifier="andcomponent" ID="755" 
+<input name="signal_in1">
+        <link w="622" i="1" />
+      <input name="signal_in2">
+        <link w="759" i="1" />
+      <output name="signal_out">
+        <link w="766" i="0" />
+      
+
+
+ identifier="hatch" ID="756" 
+<input name="set_state">
+        <link w="766" i="1" />
+      
+
+
+ identifier="windoweddoorwbuttons" ID="774" 
+<input name="set_state">
+        <link w="780" i="0" />
+      
+
+
+ identifier="delaycomponent" ID="775" 
+<input name="signal_in">
+        <link w="781" i="0" />
+      <output name="signal_out">
+        <link w="782" i="0" />
+      
+
+
+ identifier="andcomponent" ID="776" 
+<input name="signal_in1">
+        <link w="783" i="0" />
+      <input name="signal_in2">
+        <link w="782" i="1" />
+      <output name="signal_out">
+        <link w="780" i="1" />
+      
+
+
+ identifier="notcomponent" ID="777" 
+<input name="signal_in">
+        <link w="784" i="0" />
+      <output name="signal_out">
+        <link w="783" i="1" />
+      
+
+
+ identifier="motiondetector" ID="778" 
+<output name="state_out">
+        <link w="784" i="1" />
+      
+
+
+ identifier="periscope" ID="893" 
+<output name="position_out">
+        <link w="1063" i="0" />
+      <output name="trigger_out">
+        <link w="1064" i="0" />
+      
+
+
+ identifier="orcomponent" ID="897" 
+<input name="signal_in1">
+        <link w="1303" i="0" />
+      <input name="signal_in2">
+        <link w="1302" i="0" />
+      <output name="signal_out">
+        <link w="1304" i="1" />
+      
+
+
+ identifier="deconstructor" ID="899" 
+<input name="power_in">
+        <link w="913" i="0" />
+      
+
+
+ identifier="junctionbox" ID="902" 
+<output name="power">
+        <link w="1687" i="0" />
+      
+
+
+ identifier="junctionbox" ID="910" 
+<output name="power">
+        <link w="1451" i="0" />
+      
+
+
+ identifier="lamp" ID="911" 
+<input name="power">
+        <link w="1331" i="0" />
+      
+
+
+ identifier="waterdetector" ID="924" 
+<output name="signal_out">
+        <link w="927" i="0" />
+      
+
+
+ identifier="ductblock" ID="925" 
+<input name="set_state">
+        <link w="927" i="1" />
+      
+
+
+ identifier="smallpump" ID="931" 
+<input name="power_in">
+        <link w="942" i="1" />
+      <input name="set_active">
+        <link w="933" i="0" />
+      
+
+
+ identifier="waterdetector" ID="932" 
+<output name="signal_out">
+        <link w="933" i="1" />
+      
+
+
+ identifier="delaycomponent" ID="934" 
+<input name="signal_in">
+        <link w="1295" i="0" />
+      <output name="signal_out">
+        <link w="644" i="0" />
+      
+
+
+ identifier="andcomponent" ID="937" 
+<input name="signal_in1">
+        <link w="935" i="0" />
+      <input name="signal_in2">
+        <link w="644" i="1" />
+      <output name="signal_out">
+        <link w="936" i="0" />
+      
+
+
+ identifier="notcomponent" ID="938" 
+<input name="signal_in">
+        <link w="1297" i="0" />
+      <output name="signal_out">
+        <link w="935" i="1" />
+      
+
+
+ identifier="motiondetector" ID="939" 
+<output name="state_out">
+        <link w="1297" i="1" />
+      
+
+
+ identifier="hatchwbuttons" ID="940" 
+<input name="set_state">
+        <link w="936" i="1" />
+      
+
+
+ identifier="medicalfabricator" ID="1027" 
+<input name="power_in">
+        <link w="505" i="1" />
+      
+
+
+<input name="power_in">
+        <link w="1371" i="1" />
+      
+
+
+ identifier="largeturrethardpoint" ID="1061" 
+<input name="power_in">
+        <link w="1062" i="1" />
+      <input name="position_in">
+        <link w="1063" i="1" />
+      <input name="trigger_in">
+        <link w="1064" i="1" />
+      <input name="set_light">
+        <link w="1409" i="0" />
+      
+
+
+ identifier="periscope" ID="1067" 
+<output name="position_out">
+        <link w="1119" i="0" />
+      <output name="trigger_out">
+        <link w="1129" i="0" />
+      
+
+
+ identifier="searchlight" ID="1071" 
+<input name="power_in">
+        <link w="1098" i="0" />
+      <input name="position_in">
+        <link w="1093" i="0" />
+      <input name="set_light">
+        <link w="1139" i="0" />
+      
+
+
+ identifier="memorycomponent" ID="1072" 
+<output name="signal_out">
+        <link w="1112" i="0" />
+      
+
+
+ identifier="delaycomponent" ID="1073" 
+<input name="signal_in">
+        <link w="1129" i="1" />
+      <output name="signal_out">
+        <link w="1078" i="0" />
+      
+
+
+ identifier="memorycomponent" ID="1074" 
+<input name="signal_in">
+        <link w="1097" i="0" />
+      <output name="signal_out">
+        <link w="1113" i="0" />
+      
+
+
+ identifier="greatercomponent" ID="1075" 
+<input name="signal_in1">
+        <link w="1099" i="1" />
+      <input name="signal_in2">
+        <link w="1112" i="1" />
+      <output name="signal_out">
+        <link w="1097" i="1" />
+      
+
+
+ identifier="addercomponent" ID="1076" 
+<input name="signal_in1">
+        <link w="1079" i="1" />
+      <input name="signal_in2">
+        <link w="1078" i="1" />
+      <output name="signal_out">
+        <link w="1080" i="1" />
+      
+
+
+ identifier="relaycomponent" ID="1077" 
+<input name="signal_in1">
+        <link w="1120" i="0" />
+      <input name="set_state">
+        <link w="1115" i="0" />
+      <output name="signal_out1">
+        <link w="1121" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1081" 
+<input name="signal_in">
+        <link w="1114" i="0" />
+      <output name="signal_out">
+        <link w="1115" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1082" 
+<input name="signal_in">
+        <link w="1116" i="0" />
+      <output name="signal_out">
+        <link w="1090" i="0" />
+      
+
+
+ identifier="relaycomponent" ID="1083" 
+<input name="signal_in1">
+        <link w="1122" i="0" />
+      <input name="set_state">
+        <link w="1090" i="1" />
+      <output name="signal_out1">
+        <link w="1123" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1084" 
+<input name="signal_in">
+        <link w="1118" i="0" />
+      <output name="signal_out">
+        <link w="1091" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1085" 
+<input name="signal_in">
+        <link w="1117" i="0" />
+      <output name="signal_out">
+        <link w="1092" i="0" />
+      
+
+
+ identifier="relaycomponent" ID="1086" 
+<input name="signal_in1">
+        <link w="1124" i="0" />
+      <input name="set_state">
+        <link w="1092" i="1" />
+      <output name="signal_out1">
+        <link w="1094" i="0" />
+      
+
+
+ identifier="relaycomponent" ID="1087" 
+<input name="signal_in1">
+        <link w="1125" i="0" />
+      <input name="set_state">
+        <link w="1091" i="1" />
+      <output name="signal_out1">
+        <link w="1093" i="1" />
+      
+
+
+ identifier="relaycomponent" ID="1088" 
+<input name="signal_in1">
+        <link w="1113" i="1" />
+      <output name="signal_out1">
+        <link w="1118" i="1" />
+      
+
+
+ identifier="relaycomponent" ID="1089" 
+<input name="signal_in1">
+        <link w="1119" i="1" />
+      <output name="signal_out1">
+        <link w="1125" i="1" />
+      
+
+
+ identifier="relaycomponent" ID="1095" 
+<input name="power_in">
+        <link w="1096" i="1" />
+      <output name="power_out">
+        <link w="1397" i="0" />
+      
+
+
+ identifier="searchlight" ID="1104" 
+<input name="power_in">
+        <link w="1126" i="1" />
+      <input name="position_in">
+        <link w="1123" i="1" />
+      <input name="set_light">
+        <link w="1140" i="0" />
+      
+
+
+ identifier="searchlight" ID="1110" 
+<input name="power_in">
+        <link w="1127" i="1" />
+      <input name="position_in">
+        <link w="1121" i="1" />
+      <input name="set_light">
+        <link w="1138" i="0" />
+      
+
+
+ identifier="ductblock" ID="1132" 
+<input name="set_state">
+        <link w="1135" i="1" />
+      
+
+
+ identifier="relaycomponent" ID="1136" 
+<input name="power_in">
+        <link w="1686" i="1" />
+      <output name="power_out">
+        <link w="1391" i="1" />
+      
+
+
+ identifier="switch" ID="1137" 
+<output name="signal_out">
+        <link w="1398" i="0" />
+      
+
+
+ identifier="relaycomponent" ID="1152" 
+<input name="power_in">
+        <link w="1687" i="1" />
+      <output name="power_out">
+        <link w="1163" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1153" 
+<input name="signal_in">
+        <link w="1585" i="1" />
+      <output name="signal_out">
+        <link w="1591" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1154" 
+<input name="signal_in">
+        <link w="1584" i="1" />
+      <output name="signal_out">
+        <link w="1589" i="0" />
+      
+
+
+ identifier="wificomponent" ID="1155" 
+<output name="signal_out">
+        <link w="1585" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1156" 
+<input name="signal_in">
+        <link w="1547" i="1" />
+      <output name="signal_out">
+        <link w="1546" i="0" />
+      
+
+
+ identifier="detonator" ID="1157" 
+<input name="activate">
+        <link w="1591" i="1" />
+      
+
+
+ identifier="textdisplay" ID="1180" 
+<input name="set_text">
+        <link w="1183" i="1" />
+      
+
+
+ identifier="textdisplay" ID="1181" 
+<input name="set_text">
+        <link w="1185" i="0" />
+      
+
+
+ identifier="wificomponent" ID="1182" 
+<output name="signal_out">
+        <link w="1185" i="1" />
+      <input name="set_channel">
+        <link w="1202" i="0" />
+      
+
+
+ identifier="memorycomponent" ID="1184" 
+<output name="signal_out">
+        <link w="1191" i="0" />
+      
+
+
+ identifier="concatcomponent" ID="1186" 
+<input name="signal_in1">
+        <link w="1191" i="1" />
+      <input name="signal_in2">
+        <link w="1190" i="1" />
+      <output name="signal_out">
+        <link w="1193" i="0" />
+      
+
+
+ identifier="concatcomponent" ID="1187" 
+<input name="signal_in1">
+        <link w="1195" i="0" />
+      <input name="signal_in2">
+        <link w="1194" i="1" />
+      <output name="signal_out">
+        <link w="1197" i="0" />
+      
+
+
+ identifier="memorycomponent" ID="1188" 
+<output name="signal_out">
+        <link w="1195" i="1" />
+      
+
+
+ identifier="wificomponent" ID="1189" 
+<input name="signal_in">
+        <link w="1193" i="1" />
+      
+
+
+ identifier="wificomponent" ID="1192" 
+<input name="signal_in">
+        <link w="1197" i="1" />
+      
+
+
+ identifier="oscillator" ID="1196" 
+<input name="set_frequency">
+        <link w="1280" i="0" />
+      <output name="signal_out">
+        <link w="1279" i="0" />
+      
+
+
+ identifier="concatcomponent" ID="1198" 
+<input name="signal_in1">
+        <link w="1200" i="0" />
+      <input name="signal_in2">
+        <link w="1201" i="1" />
+      <output name="signal_out">
+        <link w="1202" i="1" />
+      
+
+
+ identifier="memorycomponent" ID="1199" 
+<output name="signal_out">
+        <link w="1200" i="1" />
+      
+
+
+ identifier="lightcomponent90" ID="1203" 
+<input name="set_color">
+        <link w="1258" i="0" />
+      
+
+
+ identifier="lightcomponent90" ID="1204" 
+<input name="set_color">
+        <link w="1265" i="0" />
+      
+
+
+ identifier="lever" ID="1205" 
+<output name="signal_out">
+        <link w="1262" i="0" />
+      
+
+
+ identifier="textdisplay" ID="1206" 
+<input name="set_text">
+        <link w="1243" i="0" />
+      
+
+
+ identifier="delaycomponent" ID="1207" 
+<input name="signal_in">
+        <link w="1211" i="1" />
+      <output name="signal_out">
+        <link w="1209" i="0" />
+      
+
+
+ identifier="andcomponent" ID="1208" 
+<input name="signal_in1">
+        <link w="1209" i="1" />
+      <input name="signal_in2">
+        <link w="1266" i="0" />
+      <output name="signal_out">
+        <link w="1210" i="1" />
+      
+
+
+ identifier="switch" ID="1212" 
+<output name="signal_out">
+        <link w="1481" i="0" />
+      
+
+
+ identifier="memorycomponent" ID="1214" 
+<output name="signal_out">
+        <link w="1256" i="0" />
+      
+
+
+ identifier="subtractcomponent" ID="1215" 
+<input name="signal_in1">
+        <link w="1220" i="0" />
+      <input name="signal_in2">
+        <link w="1219" i="1" />
+      <output name="signal_out">
+        <link w="1243" i="1" />
+      
+
+
+ identifier="memorycomponent" ID="1217" 
+<input name="signal_in">
+        <link w="1231" i="0" />
+      <output name="signal_out">
+        <link w="1220" i="1" />
+      
+
+
+ identifier="equalscomponent" ID="1218" 
+<input name="signal_in1">
+        <link w="1222" i="1" />
+      <input name="signal_in2">
+        <link w="1224" i="0" />
+      <output name="signal_out">
+        <link w="1228" i="0" />
+      
+
+
+ identifier="memorycomponent" ID="1221" 
+<output name="signal_out">
+        <link w="1224" i="1" />
+      
+
+
+ identifier="relaycomponent" ID="1223" 
+<input name="signal_in1">
+        <link w="1226" i="1" />
+      <input name="set_state">
+        <link w="1236" i="0" />
+      <output name="signal_out1">
+        <link w="1227" i="1" />
+      
+
+
+ identifier="andcomponent" ID="1225" 
+<input name="signal_in1">
+        <link w="1230" i="0" />
+      <input name="signal_in2">
+        <link w="1241" i="0" />
+      <output name="signal_out">
+        <link w="1231" i="1" />
+      
+
+
+ identifier="memorycomponent" ID="1229" 
+<output name="signal_out">
+        <link w="1230" i="1" />
+      
+
+
+ identifier="memorycomponent" ID="1232" 
+<output name="signal_out">
+        <link w="1234" i="0" />
+      
+
+
+ identifier="andcomponent" ID="1233" 
+<input name="signal_in1">
+        <link w="1234" i="1" />
+      <input name="signal_in2">
+        <link w="1240" i="0" />
+      <output name="signal_out">
+        <link w="1236" i="1" />
+      
+
+
+ identifier="notcomponent" ID="1237" 
+<input name="signal_in">
+        <link w="1235" i="1" />
+      <output name="signal_out">
+        <link w="1241" i="1" />
+      
+
+
+ identifier="notcomponent" ID="1238" 
+<input name="signal_in">
+        <link w="1239" i="1" />
+      <output name="signal_out">
+        <link w="1240" i="1" />
+      
+
+
+ identifier="colorcomponent" ID="1246" 
+<input name="signal_r">
+        <link w="1263" i="0" />
+      <input name="signal_g">
+        <link w="1264" i="0" />
+      <input name="signal_b">
+        <link w="1255" i="1" />
+      <input name="signal_a">
+        <link w="1253" i="0" />
+      <output name="signal_out">
+        <link w="1265" i="1" />
+      
+
+
+ identifier="colorcomponent" ID="1247" 
+<input name="signal_r">
+        <link w="1213" i="0" />
+      <input name="signal_g">
+        <link w="1257" i="0" />
+      <input name="signal_b">
+        <link w="1256" i="1" />
+      <input name="signal_a">
+        <link w="1254" i="0" />
+      <output name="signal_out">
+        <link w="1487" i="0" />
+      
+
+
+ identifier="memorycomponent" ID="1248" 
+<output name="signal_out">
+        <link w="1254" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1249" 
+<input name="signal_in">
+        <link w="1261" i="1" />
+      <output name="signal_out">
+        <link w="1263" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1250" 
+<input name="signal_in">
+        <link w="1262" i="1" />
+      <output name="signal_out">
+        <link w="1264" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1251" 
+<input name="signal_in">
+        <link w="1259" i="1" />
+      <output name="signal_out">
+        <link w="1213" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1252" 
+<input name="signal_in">
+        <link w="1260" i="1" />
+      <output name="signal_out">
+        <link w="1257" i="1" />
+      
+
+
+ identifier="concatcomponent" ID="1267" 
+<input name="signal_in1">
+        <link w="1277" i="0" />
+      <input name="signal_in2">
+        <link w="1279" i="1" />
+      <output name="signal_out">
+        <link w="1273" i="0" />
+      
+
+
+ identifier="wificomponent" ID="1268" 
+<output name="signal_out">
+        <link w="1274" i="0" />
+      <input name="set_channel">
+        <link w="1273" i="1" />
+      
+
+
+ identifier="greatercomponent" ID="1269" 
+<input name="signal_in1">
+        <link w="1275" i="0" />
+      <input name="signal_in2">
+        <link w="1274" i="1" />
+      <output name="signal_out">
+        <link w="1282" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1270" 
+<input name="signal_in">
+        <link w="1276" i="1" />
+      <output name="signal_out">
+        <link w="1280" i="1" />
+      
+
+
+ identifier="memorycomponent" ID="1271" 
+<output name="signal_out">
+        <link w="1275" i="1" />
+      
+
+
+ identifier="memorycomponent" ID="1272" 
+<output name="signal_out">
+        <link w="1277" i="1" />
+      
+
+
+ identifier="alarmbuzzer" ID="1278" 
+<input name="set_state">
+        <link w="1282" i="1" />
+      
+
+
+ identifier="wificomponent" ID="1281" 
+<input name="signal_in">
+        <link w="1284" i="1" />
+      
+
+
+ identifier="wificomponent" ID="1283" 
+<input name="signal_in">
+        <link w="1285" i="1" />
+      
+
+
+ identifier="motiondetector" ID="1286" 
+<output name="state_out">
+        <link w="1294" i="0" />
+      
+
+
+ identifier="motiondetector" ID="1287" 
+<output name="state_out">
+        <link w="1308" i="0" />
+      
+
+
+ identifier="motiondetector" ID="1288" 
+<output name="state_out">
+        <link w="1296" i="0" />
+      
+
+
+ identifier="motiondetector" ID="1289" 
+<output name="state_out">
+        <link w="1298" i="0" />
+      
+
+
+ identifier="motiondetector" ID="1290" 
+<output name="state_out">
+        <link w="1307" i="0" />
+      
+
+
+ identifier="orcomponent" ID="1291" 
+<input name="signal_in1">
+        <link w="1296" i="1" />
+      <input name="signal_in2">
+        <link w="1298" i="1" />
+      <output name="signal_out">
+        <link w="1299" i="0" />
+      
+
+
+ identifier="orcomponent" ID="1292" 
+<input name="signal_in1">
+        <link w="1299" i="1" />
+      <input name="signal_in2">
+        <link w="1307" i="1" />
+      <output name="signal_out">
+        <link w="1367" i="0" />
+      
+
+
+ identifier="orcomponent" ID="1293" 
+<input name="signal_in1">
+        <link w="1308" i="1" />
+      <input name="signal_in2">
+        <link w="1294" i="1" />
+      <output name="signal_out">
+        <link w="1368" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1300" 
+<input name="signal_in">
+        <link w="1367" i="1" />
+      <output name="signal_out">
+        <link w="1305" i="0" />
+      
+
+
+ identifier="textdisplay" ID="1301" 
+<input name="set_text">
+        <link w="1306" i="0" />
+      
+
+
+ identifier="alarmbuzzer" ID="1311" 
+<input name="set_state">
+        <link w="1315" i="0" />
+      
+
+
+ identifier="greatercomponent" ID="1312" 
+<input name="signal_in1">
+        <link w="1314" i="0" />
+      <input name="signal_in2">
+        <link w="1316" i="1" />
+      <output name="signal_out">
+        <link w="1315" i="1" />
+      
+
+
+ identifier="memorycomponent" ID="1313" 
+<output name="signal_out">
+        <link w="1314" i="1" />
+      
+
+
+ identifier="relaycomponent" ID="1328" 
+<input name="power_in">
+        <link w="205" i="1" />
+      <output name="power_out">
+        <link w="1698" i="1" />
+      
+
+
+ identifier="relaycomponent" ID="1329" 
+<input name="power_in">
+        <link w="204" i="1" />
+      <output name="power_out">
+        <link w="1679" i="1" />
+      
+
+
+ identifier="relaycomponent" ID="1330" 
+<input name="power_in">
+        <link w="142" i="1" />
+      <output name="power_out">
+        <link w="1334" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1366" 
+<input name="signal_in">
+        <link w="1368" i="1" />
+      <output name="signal_out">
+        <link w="1306" i="1" />
+      
+
+
+ identifier="lamp" ID="1370" 
+<input name="power">
+        <link w="1679" i="0" />
+      
+
+
+ identifier="lamp" ID="1388" 
+<input name="power">
+        <link w="1390" i="1" />
+      
+
+
+ identifier="dischargecoil" ID="1389" 
+<input name="power_in">
+        <link w="1413" i="1" />
+      <input name="trigger_in">
+        <link w="1434" i="1" />
+      
+
+
+ identifier="searchlight" ID="1396" 
+<input name="power_in">
+        <link w="1397" i="1" />
+      <input name="position_in">
+        <link w="1094" i="1" />
+      <input name="set_light">
+        <link w="1398" i="1" />
+      
+
+
+ identifier="textdisplay" ID="1403" 
+<input name="set_text">
+        <link w="1416" i="1" />
+      
+
+
+ identifier="switch" ID="1407" 
+<output name="signal_out">
+        <link w="1410" i="1" />
+      
+
+
+ identifier="waterdetector" ID="1411" 
+<output name="signal_out">
+        <link w="1414" i="0" />
+      
+
+
+ identifier="smallpump" ID="1433" 
+<input name="power_in">
+        <link w="1417" i="1" />
+      <input name="set_speed">
+        <link w="1414" i="1" />
+      
+
+
+ identifier="waterdetector" ID="1444" 
+<output name="signal_out">
+        <link w="1448" i="0" />
+      
+
+
+ identifier="andcomponent" ID="1445" 
+<input name="signal_in1">
+        <link w="1448" i="1" />
+      <input name="signal_in2">
+        <link w="1449" i="0" />
+      <output name="signal_out">
+        <link w="1450" i="0" />
+      
+
+
+ identifier="notcomponent" ID="1446" 
+<input name="signal_in">
+        <link w="1690" i="1" />
+      <output name="signal_out">
+        <link w="1449" i="1" />
+      
+
+
+ identifier="smallpump" ID="1447" 
+<input name="power_in">
+        <link w="1451" i="1" />
+      <input name="set_active">
+        <link w="1450" i="1" />
+      
+
+
+ identifier="dockinghatch" ID="1452" 
+<output name="power">
+        <link w="1473" i="1" />
+      <output name="state_out">
+        <link w="1689" i="0" />
+      
+
+
+ identifier="button" ID="1453" 
+<output name="signal_out">
+        <link w="1430" i="0" />
+      
+
+
+ identifier="wificomponent" ID="1455" 
+<input name="signal_in">
+        <link w="1612" i="0" />
+      
+
+
+ identifier="terminal" ID="1457" 
+<input name="signal_in">
+        <link w="1606" i="0" />
+      <output name="signal_out">
+        <link w="1605" i="0" />
+      
+
+
+ identifier="hatch" ID="1471" 
+<input name="toggle">
+        <link w="1431" i="0" />
+      <output name="state_out">
+        <link w="1690" i="0" />
+      <output name="condition_out">
+        <link w="1689" i="1" />
+      
+
+
+ identifier="lever" ID="1474" 
+<output name="signal_out">
+        <link w="1485" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1475" 
+<input name="signal_in">
+        <link w="1476" i="0" />
+      <output name="signal_out">
+        <link w="1477" i="0" />
+      
+
+
+ identifier="delaycomponent" ID="1478" 
+<input name="signal_in">
+        <link w="1484" i="1" />
+      <output name="signal_out">
+        <link w="1483" i="0" />
+      
+
+
+ identifier="andcomponent" ID="1479" 
+<input name="signal_in1">
+        <link w="1483" i="1" />
+      <input name="signal_in2">
+        <link w="1481" i="1" />
+      <output name="signal_out">
+        <link w="1482" i="1" />
+      
+
+
+ identifier="alarmbuzzer" ID="1480" 
+<input name="set_state">
+        <link w="1485" i="1" />
+      
+
+
+ identifier="lightcomponent90" ID="1486" 
+<input name="set_color">
+        <link w="1487" i="1" />
+      
+
+
+ identifier="button" ID="1488" 
+<output name="signal_out">
+        <link w="1431" i="1" />
+      
+
+
+ identifier="windoweddoorwbuttons" ID="1489" 
+<input name="toggle">
+        <link w="1495" i="0" />
+      <output name="state_out">
+        <link w="1428" i="0" />
+      
+
+
+ identifier="delaycomponent" ID="1490" 
+<input name="signal_in">
+        <link w="1496" i="0" />
+      <output name="signal_out">
+        <link w="1497" i="0" />
+      
+
+
+ identifier="andcomponent" ID="1491" 
+<input name="signal_in1">
+        <link w="1498" i="0" />
+      <input name="signal_in2">
+        <link w="1497" i="1" />
+      <output name="signal_out">
+        <link w="1495" i="1" />
+      
+
+
+ identifier="notcomponent" ID="1492" 
+<input name="signal_in">
+        <link w="1499" i="0" />
+      <output name="signal_out">
+        <link w="1498" i="1" />
+      
+
+
+ identifier="motiondetector" ID="1493" 
+<output name="state_out">
+        <link w="1499" i="1" />
+      
+
+
+ identifier="andcomponent" ID="1500" 
+<input name="signal_in1">
+        <link w="1432" i="1" />
+      <input name="signal_in2">
+        <link w="1428" i="1" />
+      <output name="signal_out">
+        <link w="1429" i="1" />
+      
+
+
+ identifier="wificomponent" ID="1501" 
+<output name="signal_out">
+        <link w="1630" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1502" 
+<input name="signal_in">
+        <link w="1508" i="1" />
+      <output name="signal_out">
+        <link w="1509" i="0" />
+      
+
+
+ identifier="detonator" ID="1506" 
+<input name="activate">
+        <link w="1631" i="0" />
+      
+
+
+ identifier="wificomponent" ID="1510" 
+<output name="signal_out">
+        <link w="1607" i="0" />
+      
+
+
+ identifier="wificomponent" ID="1511" 
+<input name="signal_in">
+        <link w="1605" i="1" />
+      
+
+
+ identifier="wificomponent" ID="1512" 
+<output name="signal_out">
+        <link w="1627" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1513" 
+<input name="signal_in">
+        <link w="1520" i="1" />
+      <output name="signal_out">
+        <link w="1519" i="0" />
+      
+
+
+ identifier="detonator" ID="1517" 
+<input name="activate">
+        <link w="1628" i="0" />
+      
+
+
+ identifier="wificomponent" ID="1521" 
+<output name="signal_out">
+        <link w="1645" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1522" 
+<input name="signal_in">
+        <link w="1529" i="1" />
+      <output name="signal_out">
+        <link w="1528" i="0" />
+      
+
+
+ identifier="detonator" ID="1526" 
+<input name="activate">
+        <link w="1644" i="0" />
+      
+
+
+ identifier="wificomponent" ID="1530" 
+<output name="signal_out">
+        <link w="1647" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1531" 
+<input name="signal_in">
+        <link w="1538" i="1" />
+      <output name="signal_out">
+        <link w="1537" i="0" />
+      
+
+
+ identifier="detonator" ID="1535" 
+<input name="activate">
+        <link w="1649" i="0" />
+      
+
+
+ identifier="lamp" ID="1539" 
+<input name="power">
+        <link w="1682" i="1" />
+      
+
+
+ identifier="detonator" ID="1540" 
+<input name="activate">
+        <link w="1681" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1544" 
+<input name="signal_in">
+        <link w="1614" i="1" />
+      <output name="signal_out">
+        <link w="1623" i="0" />
+      
+
+
+ identifier="wificomponent" ID="1548" 
+<output name="signal_out">
+        <link w="1556" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1549" 
+<input name="signal_in">
+        <link w="1556" i="1" />
+      <output name="signal_out">
+        <link w="1555" i="0" />
+      
+
+
+ identifier="detonator" ID="1553" 
+<input name="activate">
+        <link w="1555" i="1" />
+      
+
+
+ identifier="wificomponent" ID="1557" 
+<output name="signal_out">
+        <link w="1636" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1558" 
+<input name="signal_in">
+        <link w="1565" i="1" />
+      <output name="signal_out">
+        <link w="1564" i="0" />
+      
+
+
+ identifier="detonator" ID="1562" 
+<input name="activate">
+        <link w="1637" i="0" />
+      
+
+
+ identifier="wificomponent" ID="1566" 
+<output name="signal_out">
+        <link w="1642" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1567" 
+<input name="signal_in">
+        <link w="1574" i="1" />
+      <output name="signal_out">
+        <link w="1573" i="0" />
+      
+
+
+ identifier="detonator" ID="1571" 
+<input name="activate">
+        <link w="1643" i="0" />
+      
+
+
+ identifier="wificomponent" ID="1575" 
+<output name="signal_out">
+        <link w="1655" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1576" 
+<input name="signal_in">
+        <link w="1583" i="1" />
+      <output name="signal_out">
+        <link w="1582" i="0" />
+      
+
+
+ identifier="detonator" ID="1580" 
+<input name="activate">
+        <link w="1656" i="0" />
+      
+
+
+ identifier="wificomponent" ID="1592" 
+<output name="signal_out">
+        <link w="1621" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1593" 
+<input name="signal_in">
+        <link w="1646" i="1" />
+      <output name="signal_out">
+        <link w="1649" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1594" 
+<input name="signal_in">
+        <link w="1647" i="1" />
+      <output name="signal_out">
+        <link w="1648" i="1" />
+      
+
+
+ identifier="wificomponent" ID="1595" 
+<output name="signal_out">
+        <link w="1639" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1596" 
+<input name="signal_in">
+        <link w="1603" i="1" />
+      <output name="signal_out">
+        <link w="1602" i="0" />
+      
+
+
+ identifier="detonator" ID="1600" 
+<input name="activate">
+        <link w="1640" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1604" 
+<input name="signal_in">
+        <link w="1607" i="1" />
+      <output name="signal_out">
+        <link w="1606" i="1" />
+      
+
+
+ identifier="wificomponent" ID="1608" 
+<output name="signal_out">
+        <link w="1611" i="0" />
+      
+
+
+ identifier="terminal" ID="1609" 
+<input name="signal_in">
+        <link w="1613" i="0" />
+      <output name="signal_out">
+        <link w="1612" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1610" 
+<input name="signal_in">
+        <link w="1611" i="1" />
+      <output name="signal_out">
+        <link w="1613" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1615" 
+<input name="signal_in">
+        <link w="1621" i="1" />
+      <output name="signal_out">
+        <link w="1625" i="0" />
+      
+
+
+ identifier="detonator" ID="1619" 
+<input name="activate">
+        <link w="1625" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1624" 
+<input name="signal_in">
+        <link w="1627" i="1" />
+      <output name="signal_out">
+        <link w="1628" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1626" 
+<input name="signal_in">
+        <link w="1630" i="1" />
+      <output name="signal_out">
+        <link w="1631" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1629" 
+<input name="signal_in">
+        <link w="1633" i="1" />
+      <output name="signal_out">
+        <link w="1634" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1632" 
+<input name="signal_in">
+        <link w="1636" i="1" />
+      <output name="signal_out">
+        <link w="1637" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1635" 
+<input name="signal_in">
+        <link w="1639" i="1" />
+      <output name="signal_out">
+        <link w="1640" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1638" 
+<input name="signal_in">
+        <link w="1642" i="1" />
+      <output name="signal_out">
+        <link w="1643" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1641" 
+<input name="signal_in">
+        <link w="1645" i="1" />
+      <output name="signal_out">
+        <link w="1644" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1650" 
+<input name="signal_in">
+        <link w="1655" i="1" />
+      <output name="signal_out">
+        <link w="1656" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1652" 
+<input name="signal_in">
+        <link w="1677" i="1" />
+      <output name="signal_out">
+        <link w="1681" i="0" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1653" 
+<input name="signal_in">
+        <link w="1678" i="1" />
+      <output name="signal_out">
+        <link w="1680" i="0" />
+      
+
+
+ identifier="wificomponent" ID="1654" 
+<output name="signal_out">
+        <link w="1678" i="0" />
+      
+
+
+ identifier="depthchargetube" ID="1659" 
+<input name="trigger_in">
+        <link w="1675" i="1" />
+      
+
+
+ identifier="signalcheckcomponent" ID="1672" 
+<input name="signal_in">
+        <link w="1674" i="1" />
+      <output name="signal_out">
+        <link w="1675" i="0" />
+      
+
+
+ identifier="wificomponent" ID="1673" 
+<output name="signal_out">
+        <link w="1674" i="0" />
+      
+
+
+ identifier="lamp" ID="1697" 
+<input name="power">
+        <link w="1698" i="0" />
+      
+
+

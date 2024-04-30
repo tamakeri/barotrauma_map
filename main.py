@@ -74,26 +74,28 @@ import re
 newarr=[]
 
 
-name_id="( identifier=\"[A-Za-z]+\" ID=\"[0-9]+\" )"
+name_id="( identifier=\"[A-Za-z0-9]+\" ID=\"[0-9]+\" )"
 links="(<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>)"
+input_name="<[A-Za-z]+t name=\".*\">"
+#whole_idk="(<[A-Za-z]+t name=\".*\">)\n *(<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>\n *)*(<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>)"
+whole_idk="(<[A-Za-z]+t name=\".*\">)(\n *)((<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>)*(\n *)*)*"
+
+
 
 # this block for getting the id's
 for i in range(len (real_arr)):
+
         if(re.findall(name_id, real_arr[i])!=[] and re.findall(links, real_arr[i])!=[]):
             newarr.append(re.findall(name_id, real_arr[i]))
-            
-        
-        if(re.findall(links, real_arr[i])!=[]):
-            newarr.append(re.findall(links, real_arr[i]))
+
+        if(re.findall(whole_idk, real_arr[i])!=[]):
+            newarr.append(re.findall(whole_idk, real_arr[i]))
+            newarr.append("\n")
+
+idk=[]
 
 
-
-
-
-
-
-#this block is writing the xml for testing 
-f = open("here_is_the list.xml", "w")
+f = open("2.xml", "w")
 for i in range(len (newarr)):
 
     f.write(str(newarr[i]))
@@ -109,4 +111,22 @@ f.close()
 
 
 
-#open and read the file after the appending:
+
+
+f = open("here_is_the list.xml", "w")
+for i in range(len (newarr)):
+    for item in newarr[i]:
+        for items in item:
+            if(items!="" and items!="\\n"):
+                f.write(items)
+                idk.append(items)
+                
+    f.write("\n")
+
+import a
+
+#a.man(newarr)
+import html_maker
+html_maker.main(newarr)
+f.close()
+
