@@ -78,7 +78,7 @@ name_id="( identifier=\"[A-Za-z0-9]+\" ID=\"[0-9]+\" )"
 links="(<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>)"
 input_name="<[A-Za-z]+t name=\".*\">"
 #whole_idk="(<[A-Za-z]+t name=\".*\">)\n *(<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>\n *)*(<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>)"
-whole_idk="(<[A-Za-z]+t name=\".*\">)(\n *)((<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>)*(\n *)*)*"
+whole_idk="(      <[A-Za-z]+t name=\".*\">)(\n *)((<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>)*(\n *)*)*"
 
 
 
@@ -89,8 +89,9 @@ for i in range(len (real_arr)):
             newarr.append(re.findall(name_id, real_arr[i]))
 
         if(re.findall(whole_idk, real_arr[i])!=[]):
+            
             newarr.append(re.findall(whole_idk, real_arr[i]))
-            newarr.append("\n")
+            
 
 idk=[]
 
@@ -101,16 +102,6 @@ for i in range(len (newarr)):
     f.write(str(newarr[i]))
     f.write("\n")
 f.close()
-
-
-
-
-
-
-
-
-
-
 
 
 f = open("here_is_the list.xml", "w")
@@ -125,8 +116,8 @@ for i in range(len (newarr)):
 
 import a
 
-#a.man(newarr)
+a.get_names(newarr)
 import html_maker
-html_maker.main(newarr)
+#html_maker.main(newarr)
 f.close()
 

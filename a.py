@@ -9,4 +9,7 @@ def man(idk):
 
     print(say)
 
-
+def get_names():
+    with open("here_is_the list.xml") as file:
+        print(file.read())
+get_names()
