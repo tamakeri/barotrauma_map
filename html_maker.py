@@ -13,7 +13,7 @@ def main(f):
 
     def buyukluk():
         # boncuk büyüklük
-        v = random.randint(5,20)
+        v =5
         return v
 
     def generate_color():
@@ -29,7 +29,7 @@ def main(f):
 
     def adet(f):
         say=0
-        aa=""
+        
         for i in range(len(f)):
             if(re.findall("identifier=\"[A-Za-z0-9]+\" ID=\"[0-9]+\"",str(f[i]))!=[]):   
                 say=say+1
@@ -47,7 +47,8 @@ def main(f):
         val = buyukluk()
         #boyut seçimi
         b = random.randint(3,5)
-        #burası özellikleri
+        #bboş iş
+        
         g_complete.add_node(dugum_nokta,label=str(dugum_nokta),color=c,value=val,
                             title="Hello! I am Node "+str(dugum_nokta),borderWidth=b)
         
