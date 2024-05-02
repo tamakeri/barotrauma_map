@@ -40,33 +40,24 @@ for i in range(len (s)):
 import re
 # this block is not needed anym ore
 
-"""
-            # needd to make new array
-            wire_array=[]
+
+# needd to make new arr
+
+
+wire_id=[]
+wire_reg="identifier=\"([a-z]*wire)\" ID=\"([0-9]*)\""
+# this block for getting the id's
+
+for i in range(len (real_arr)):
+        a=re.search(wire_reg, real_arr[i])
+        if(a!=None):
+            b=a.group(1)+"  "+a.group(2)
+            print(b)
+            wire_id.append(b)
 
 
 
 
-            for i in range(len (real_arr)):
-                if(re.search(a, real_arr[i])):
-                    wire_array.append(real_arr[i])
-
-
-
-
-
-
-            wire_id=[]
-            wire_reg="ID=\"([^\"]*)\""
-            # this block for getting the id's
-            for i in range(len (wire_array)):
-                    wire_id.append(re.search(wire_reg, wire_array[i]).group(1))
-
-
-
-
-
-"""
 
 
 
@@ -96,10 +87,10 @@ for i in range(len (real_arr)):
 idk=[]
 
 
-f = open("2.xml", "w")
-for i in range(len (newarr)):
+f = open("wires.xml", "w")
+for i in range(len (wire_id)):
 
-    f.write(str(newarr[i]))
+    f.write(str(wire_id[i]))
     f.write("\n")
 f.close()
 
@@ -110,14 +101,22 @@ for i in range(len (newarr)):
         for items in item:
             if(items!="" and items!="\\n"):
                 f.write(items)
+                
                 idk.append(items)
                 
     f.write("\n")
 
-import a
 
-a.get_names(newarr)
-import html_maker
-#html_maker.main(newarr)
+with open("here_is_the list.xml") as my_file:
+    newarr = my_file.readlines()
+
+
+
 f.close()
+
+#import a
+
+#a.get_names(newarr)
+import html_maker
+html_maker.main(newarr,wire_id)
 
