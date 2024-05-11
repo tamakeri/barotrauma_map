@@ -20,7 +20,7 @@ def main(dugum_array,wire_array):
     def generate_color():
         return '#%06x' % random.randint(0, 0xFFFFFF)
 
-    g_complete =net.Network(height='600px',width='50%',
+    g_complete =net.Network(height='500px',width='900px',
                 bgcolor='black',font_color="red",notebook=True,
                 heading="A Complete Networkx Graph",directed=True)
 
@@ -43,7 +43,8 @@ def main(dugum_array,wire_array):
     patern_name="(<[A-Za-z0-9]+ name=\"(.*)\">)" #get group 2
     patern_link="(<link w=\"([0-9]*)\" i=\"([0-9]*)\" \/>)" #get group 23
     durum=0
-
+    temp_input=""
+    temp_link=0
     def get_names():
         with open("here_is_the list.xml") as file:
                 for line in file:
@@ -52,25 +53,52 @@ def main(dugum_array,wire_array):
                     if a!=None:durum=1
                     if b!=None:durum=2
                     if c!=None:durum=3
-                    if(a==None&b==None&c==None):durum=0
+                    
                     match durum:
-                        case 0:
-                            #wrap it uo
-                            pass
+                        
                         case 1:#idnetfiear  and id
                             print(a.group(2))
                             print(a.group(3))
+                            temp_link=a.group(3)
+
+                            c = generate_color()
+                            while(c in colors):
+                                c = generate_color()
+                            colors.append(c)
+                            #renk seçmi
+                            val = buyukluk()
+                            #boyut seçimi
+                            b = random.randint(3,5)
+                            #bboş iş
+                            
+                            g_complete.add_node(a.group(3),label=a.group(2),color=c,value=val,
+                                                title="Hello! I am Node "+str(a.group(2)),borderWidth=b)
+                            
+
+
+
+
+
+
                             pass
                         case 2:#input/autpuname
                             print(b.group(2))
+                            temp_input=b.group(2)
+
                         case 3:#linkto  and type
                             print(c.group(2))
                             print(c.group(3))
+                            if(c.group(3)==1):
+                            
+                                g_complete.add_edge(temp_link,c.group(2), label=temp_input)
+                            else:
+                                g_complete.add_edge(c.group(2),temp_link, label=temp_input)
                             pass
                         case 0:
                             print("dansoz")
                             pass
                     durum=0
+                    
                     
 
     def node_Add(array_sıra):
@@ -88,8 +116,7 @@ def main(dugum_array,wire_array):
             g_complete.add_node(array_sıra[sayac],label=str(sayac),color=c,value=val,
                                 title="Hello! I am Node "+str(sayac),borderWidth=b)
             
-
-
+    #node_Add(dugum_array)
 
 
 
@@ -108,13 +135,15 @@ def main(dugum_array,wire_array):
 
 
             a=re.search("([A-Za-z]+)  ([0-9]+)",wire_sıra[sayac])
-            print(a.group(1))
-            print(a.group(2))
+            #print(a.group(1))
+            #print(a.group(2))
             g_complete.add_node(a.group(2),label=a.group(1),color=c,value=val,
                                 title="Hello! I am Node "+a.group(1),borderWidth=b)
             
     #node_Add(dugum_array)
-    wire_add(wire_array)
+    
+    wire_add(wire_array) #tamamlandı
+    get_names()
     i=0
     chosen_set = []
 
@@ -124,7 +153,7 @@ def main(dugum_array,wire_array):
         if(eg[0]!=eg[1] and not (eg in chosen_set)):
             chosen_set.append(eg)
             # change label for penis
-            g_complete.add_edge(eg[0],eg[1], label='5')
+            #g_complete.add_edge(eg[0],eg[1], label='5')
             i+=1
 
     g_complete.show_buttons(['physics'])

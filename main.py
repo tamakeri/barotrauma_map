@@ -52,7 +52,7 @@ for i in range(len (real_arr)):
         a=re.search(wire_reg, real_arr[i])
         if(a!=None):
             b=a.group(1)+"  "+a.group(2)
-            print(b)
+            
             wire_id.append(b)
 
 

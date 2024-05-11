@@ -44,6 +44,17 @@ def get_names():
                 time.sleep(2)
 
 
+cars = []
+
+
+cars.append(["first",["ilk","iki"]])
+cars.append(["second","offcier balls"])
+
+
+cars [0].append(["uno","dos"])
+print(cars[0][2][0])
+
+print(cars)
 
 
 
