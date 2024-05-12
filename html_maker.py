@@ -101,20 +101,7 @@ def main(dugum_array,wire_array):
                     
                     
 
-    def node_Add(array_sıra):
-        for sayac in range(node_adet(array_sıra)):  
-            c = generate_color()
-            while(c in colors):
-                c = generate_color()
-            colors.append(c)
-            #renk seçmi
-            val = buyukluk()
-            #boyut seçimi
-            b = random.randint(3,5)
-            #bboş iş
-            
-            g_complete.add_node(array_sıra[sayac],label=str(sayac),color=c,value=val,
-                                title="Hello! I am Node "+str(sayac),borderWidth=b)
+
             
     #node_Add(dugum_array)
 

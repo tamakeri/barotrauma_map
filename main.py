@@ -79,6 +79,19 @@ for i in range(len (real_arr)):
         if(re.findall(name_id, real_arr[i])!=[] and re.findall(links, real_arr[i])!=[]):
             newarr.append(re.findall(name_id, real_arr[i]))
 
+#x=True
+#end=0
+#while x:
+       # y=re.search(input_name,real_arr[i][end:len(real_arr)])
+       # if(y!=None):
+        #    end=y.end()
+       # else:
+        #    x=False
+
+
+
+
+
         if(re.findall(whole_idk, real_arr[i])!=[]):
             
             newarr.append(re.findall(whole_idk, real_arr[i]))
