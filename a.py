@@ -1,22 +1,21 @@
 import re
 
-txt = "The   rain in Spain rain  rainarain"
+# Example text
+text = "Email us at contact@example.com or support@example.com"
 
+# Example regex pattern to match email addresses
+pattern = re.compile(r'(\w+@\w+\.\w+)')
 
+# Using findall to get a list of all matches
+matches = pattern.findall(text)
 
-x=True
-end=0
-while x:    
-    a=txt[end:len(txt)]
-    y=re.search("rain",a)
-    if(y==None or y==''):
-        
-        x=False
+print("Using findall:")
+for match in matches:
+    print(match)
 
-    else:
+# Using finditer to get an iterator of match objects
+matches_iter = pattern.finditer(text)
 
-    
-
-        end=int(y.end())
-        print(end)
-            
+print("\nUsing finditer:")
+for match in matches_iter:
+    print(match.group(1))

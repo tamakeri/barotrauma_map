@@ -64,40 +64,75 @@ for i in range(len (real_arr)):
 
 newarr=[]
 
-
-name_id="( identifier=\"[A-Za-z0-9]+\" ID=\"[0-9]+\" )"
+solution=r' (.*<[A-Za-z]+ name=".*">\n)(.*<link w="[0-9]+" i="\d" \/>\n)*(.*<link w="[0-9]+" i="\d" \/>)+\n.*\/[A-Za-z]+>'
+name_id="(identifier=\"[A-Za-z0-9]+\" ID=\"[0-9]+\" )"
 links="(<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>)"
 input_name="<[A-Za-z]+t name=\".*\">"
 #whole_idk="(<[A-Za-z]+t name=\".*\">)\n *(<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>\n *)*(<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>)"
 whole_idk="(      <[A-Za-z]+t name=\".*\">)(\n *)((<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>)*(\n *)*)*"
 
 
-
+some_flag=False
 # this block for getting the id's
 for i in range(len (real_arr)):
-
+        some_flag=False
         if(re.findall(name_id, real_arr[i])!=[] and re.findall(links, real_arr[i])!=[]):
-            newarr.append(re.findall(name_id, real_arr[i]))
-
-#x=True
-#end=0
-#while x:
-       # y=re.search(input_name,real_arr[i][end:len(real_arr)])
-       # if(y!=None):
-        #    end=y.end()
-       # else:
-        #    x=False
-
-
-
-
-
-        if(re.findall(whole_idk, real_arr[i])!=[]):
+            anan=re.search(name_id, real_arr[i])
             
-            newarr.append(re.findall(whole_idk, real_arr[i]))
+            newarr.append(anan.group(1))
             
+            some_flag=True
+        else:some_flag=False
+        temp_=""
+        #upper dondişton must bew met to desceond into loop
+        flagone=False
+        flagtwo=False
+        if(some_flag):
+            a=str (real_arr[i])
+            b=a.split("\n")
+            flagone=False
+            flagtwo=False
+    
+            for i in range (len(b)):
 
-idk=[]
+            
+                if((b[i].find("<output") >0 or b[i].find("<input")>0) and b[i].find("/>")<1):
+                    flagone=True
+                    
+                    temp_=""
+
+                if(b[i].find("</output") >0 or b[i].find("</input")>0):
+                    flagtwo=True
+                    pass
+                if(flagone):
+                    temp_=temp_+b[i]
+                if(flagone and flagtwo):
+
+                    into=temp_.split(">")
+                    for i in range(len(into)-1):
+                        a=(str(into[i]))
+                        if(len(a)>0):
+                            a=a+">"
+
+                        newarr.append(a)
+                        
+                    flagone=False;flagtwo=False
+                    pass
+
+
+
+                    
+                    
+                    
+                    
+                    
+                
+
+'''
+        if(re.findall(solution, real_arr[i])!=[]):
+            b=re.findall(solution, real_arr[i])
+            newarr.append(b)
+'''
 
 
 f = open("wires.xml", "w")
@@ -110,14 +145,13 @@ f.close()
 
 f = open("here_is_the list.xml", "w")
 for i in range(len (newarr)):
-    for item in newarr[i]:
-        for items in item:
-            if(items!="" and items!="\\n"):
-                f.write(items)
+
+
+                f.write(newarr[i])
+                f.write("\n")
+
                 
-                idk.append(items)
-                
-    f.write("\n")
+
 
 
 with open("here_is_the list.xml") as my_file:

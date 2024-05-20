@@ -39,13 +39,14 @@ def main(dugum_array,wire_array):
         return len(wire)
 
 
-    patern_ident="( identifier=\"([A-Za-z0-9]+)\" ID=\"([0-9]*)\" )" #get group 2 3
+    patern_ident="(identifier=\"([A-Za-z0-9]+)\" ID=\"([0-9]*)\" )" #get group 2 3
     patern_name="(<[A-Za-z0-9]+ name=\"(.*)\">)" #get group 2
     patern_link="(<link w=\"([0-9]*)\" i=\"([0-9]*)\" \/>)" #get group 23
-    durum=0
+    
     temp_input=""
     temp_link=0
     def get_names():
+        durum=0
         with open("here_is_the list.xml") as file:
                 for line in file:
                     line=str(line)
@@ -88,7 +89,7 @@ def main(dugum_array,wire_array):
                         case 3:#linkto  and type
                             print(c.group(2))
                             print(c.group(3))
-                            if(c.group(3)==1):
+                            if(c.group(3)=="1"):
                             
                                 g_complete.add_edge(temp_link,c.group(2), label=temp_input)
                             else:
