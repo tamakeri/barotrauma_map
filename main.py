@@ -18,6 +18,9 @@ flag=False
 temp_array_for_inserting_items="\t"
 temp_array=[]
 
+f.close()
+os_command_for_deleting="del "+file_needed[0]
+os.system(os_command_for_deleting)
 
 # this block is for adding to array
 for i in range(len (s)):
