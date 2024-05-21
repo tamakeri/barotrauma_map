@@ -1,34 +1,35 @@
-"""import os
-komut='\"C:\\Program Files\\7-Zip\.\\7z.exe\" e *.sub'
-li1 = os.listdir()
-result=os.system(komut)
+import os
+import re
+os_command_for_extraction='\"C:\\Program Files\\7-Zip\.\\7z.exe\" e *.sub'
+list1 = os.listdir()
+result=os.system(os_command_for_extraction)
 
-li2 = os.listdir()
-s = set(li1)
-aranan_dosya = [x for x in li2 if x not in s]
-"""
-import time
-f = open("thisss i", "r")
+list2 = os.listdir()
+s = set(list1)
+file_needed = [x for x in list2 if x not in s]
+
+
+f = open(file_needed[0], "r")
 
 s=""
 for i in f:
     s=s+i
 flag=False
-temp="\t"
-real_arr=[]
+temp_array_for_inserting_items="\t"
+temp_array=[]
 
 
 # this block is for adding to array
 for i in range(len (s)):
         if(s[i:i+7]=="</Item>"): 
             flag=False
-            temp=temp+s[i:i+7]+"\n"
-            real_arr.append(temp)
-            temp="\t"
+            temp_array_for_inserting_items=temp_array_for_inserting_items+s[i:i+7]+"\n"
+            temp_array.append(temp_array_for_inserting_items)
+            temp_array_for_inserting_items="\t"
         if(s[i:i+10]=="<Item name"): 
                 flag=True
         if (flag):
-            temp=temp+s[i]
+            temp_array_for_inserting_items=temp_array_for_inserting_items+s[i]
         
 
 
@@ -37,7 +38,7 @@ for i in range(len (s)):
 
 
 
-import re
+
 # this block is not needed anym ore
 
 
@@ -46,10 +47,10 @@ import re
 
 wire_id=[]
 wire_reg="identifier=\"([a-z]*wire)\" ID=\"([0-9]*)\""
-# this block for getting the id's
+# this block for getting the id's  and names
 
-for i in range(len (real_arr)):
-        a=re.search(wire_reg, real_arr[i])
+for i in range(len (temp_array)):
+        a=re.search(wire_reg, temp_array[i])
         if(a!=None):
             b=a.group(1)+"  "+a.group(2)
             
@@ -62,77 +63,57 @@ for i in range(len (real_arr)):
 
 
 
-newarr=[]
+final_array=[]
 
-solution=r' (.*<[A-Za-z]+ name=".*">\n)(.*<link w="[0-9]+" i="\d" \/>\n)*(.*<link w="[0-9]+" i="\d" \/>)+\n.*\/[A-Za-z]+>'
 name_id="(identifier=\"[A-Za-z0-9]+\" ID=\"[0-9]+\" )"
 links="(<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>)"
-input_name="<[A-Za-z]+t name=\".*\">"
-#whole_idk="(<[A-Za-z]+t name=\".*\">)\n *(<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>\n *)*(<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>)"
-whole_idk="(      <[A-Za-z]+t name=\".*\">)(\n *)((<[A-Za-z0-9]+ w=\"[0-9]+\" i=\"[0-9]+\" \/>)*(\n *)*)*"
-
-
 some_flag=False
-# this block for getting the id's
-for i in range(len (real_arr)):
+
+for i in range(len (temp_array)):
         some_flag=False
-        if(re.findall(name_id, real_arr[i])!=[] and re.findall(links, real_arr[i])!=[]):
-            anan=re.search(name_id, real_arr[i])
-            
-            newarr.append(anan.group(1))
-            
+        if(re.findall(name_id, temp_array[i])!=[] and re.findall(links, temp_array[i])!=[]):
+            ident_name=re.search(name_id, temp_array[i])
+            final_array.append(ident_name.group(1))
             some_flag=True
+
         else:some_flag=False
-        temp_=""
-        #upper dondişton must bew met to desceond into loop
+        temp=""
+        #upper condition must bew met to desceond into loop
         flagone=False
         flagtwo=False
         if(some_flag):
-            a=str (real_arr[i])
+            a=str (temp_array[i])
             b=a.split("\n")
             flagone=False
             flagtwo=False
-    
+
+            #this whole for loop loooking for input/output with links
             for i in range (len(b)):
 
-            
                 if((b[i].find("<output") >0 or b[i].find("<input")>0) and b[i].find("/>")<1):
                     flagone=True
-                    
-                    temp_=""
+                    temp=""
+                    #start over if found
 
                 if(b[i].find("</output") >0 or b[i].find("</input")>0):
                     flagtwo=True
-                    pass
+                    #found end
+
                 if(flagone):
-                    temp_=temp_+b[i]
+                    temp=temp+b[i]
                 if(flagone and flagtwo):
 
-                    into=temp_.split(">")
+                    into=temp.split(">")
                     for i in range(len(into)-1):
                         a=(str(into[i]))
                         if(len(a)>0):
                             a=a+">"
 
-                        newarr.append(a)
-                        
+                        final_array.append(a)
+                        #append it and reset
                     flagone=False;flagtwo=False
-                    pass
 
 
-
-                    
-                    
-                    
-                    
-                    
-                
-
-'''
-        if(re.findall(solution, real_arr[i])!=[]):
-            b=re.findall(solution, real_arr[i])
-            newarr.append(b)
-'''
 
 
 f = open("wires.xml", "w")
@@ -144,26 +125,23 @@ f.close()
 
 
 f = open("here_is_the list.xml", "w")
-for i in range(len (newarr)):
+for i in range(len (final_array)):
 
 
-                f.write(newarr[i])
+                f.write(final_array[i])
                 f.write("\n")
 
                 
 
-
+#this is a mockery of my self  i dare not touch  these two
 
 with open("here_is_the list.xml") as my_file:
-    newarr = my_file.readlines()
+    final_array = my_file.readlines()
 
 
 
 f.close()
 
-#import a
 
-#a.get_names(newarr)
 import html_maker
-html_maker.main(newarr,wire_id)
-
+html_maker.main(final_array,wire_id)

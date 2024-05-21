@@ -4,18 +4,7 @@ from IPython.display import display, HTML
 import re
 def main(dugum_array,wire_array):
 
-    def yol():
-        #burası wire lar kime neye gidecek
-        #source destitaniton
-        
-        s = random.randint(1,20)
-        d = random.randint(1,20)
-        return (s,d)
 
-    def buyukluk():
-        # boncuk büyüklük
-        v =5
-        return v
 
     def generate_color():
         return '#%06x' % random.randint(0, 0xFFFFFF)
@@ -25,18 +14,9 @@ def main(dugum_array,wire_array):
                 heading="A Complete Networkx Graph",directed=True)
 
     colors=[]
-    #burası nokta ekleme
+
     import re
-    def node_adet(dugum_array):
-        say=0
-        
-        for i in range(len(dugum_array)):
-            if(re.findall("identifier=\"[A-Za-z0-9]+\" ID=\"[0-9]+\"",str(dugum_array[i]))!=[]):   
-                say=say+1
-        return say
-    def wire_adet(wire):
-        
-        return len(wire)
+
 
 
     patern_ident="(identifier=\"([A-Za-z0-9]+)\" ID=\"([0-9]*)\" )" #get group 2 3
@@ -45,104 +25,62 @@ def main(dugum_array,wire_array):
     
     temp_input=""
     temp_link=0
-    def get_names():
-        durum=0
+    def add_compenent():
+        states=0
         with open("here_is_the list.xml") as file:
                 for line in file:
                     line=str(line)
-                    a=re.search(patern_ident,line);     b=re.search(patern_name,line);      c=re.search(patern_link,line)
-                    if a!=None:durum=1
-                    if b!=None:durum=2
-                    if c!=None:durum=3
-                    
-                    match durum:
+                    state_found_id=re.search(patern_ident,line);     state_found_name=re.search(patern_name,line);      state_found_link=re.search(patern_link,line)
+                    if state_found_id!=None:states=1
+                    if state_found_name!=None:states=2
+                    if state_found_link!=None:states=3
+                    match states:
                         
                         case 1:#idnetfiear  and id
-                            print(a.group(2))
-                            print(a.group(3))
-                            temp_link=a.group(3)
-
+                            #add the node
+                            temp_link=state_found_id.group(3)
                             c = generate_color()
                             while(c in colors):
                                 c = generate_color()
                             colors.append(c)
-                            #renk seçmi
-                            val = buyukluk()
-                            #boyut seçimi
+                            val = 5
                             b = random.randint(3,5)
-                            #bboş iş
-                            
-                            g_complete.add_node(a.group(3),label=a.group(2),color=c,value=val,
-                                                title="Hello! I am Node "+str(a.group(2)),borderWidth=b)
-                            
-
-
-
-
-
-
-                            pass
+                            g_complete.add_node(state_found_id.group(3),label=state_found_id.group(2),color=c,value=val,
+                                                title="Hello! I am Node "+str(state_found_id.group(2)),borderWidth=b)
                         case 2:#input/autpuname
-                            print(b.group(2))
-                            temp_input=b.group(2)
-
+                            temp_input=state_found_name.group(2)
                         case 3:#linkto  and type
-                            print(c.group(2))
-                            print(c.group(3))
-                            if(c.group(3)=="1"):
-                            
-                                g_complete.add_edge(temp_link,c.group(2), label=temp_input)
+                            #links two nodes
+                            if(state_found_link.group(3)=="1"):
+                                g_complete.add_edge(temp_link,state_found_link.group(2), label=temp_input)
                             else:
-                                g_complete.add_edge(c.group(2),temp_link, label=temp_input)
+                                g_complete.add_edge(state_found_link.group(2),temp_link, label=temp_input)
                             pass
                         case 0:
-                            print("dansoz")
                             pass
-                    durum=0
+                    states=0
                     
                     
 
 
             
-    #node_Add(dugum_array)
-
-
 
     def wire_add(wire_sıra):
-        for sayac in range(wire_adet(wire_sıra)):  
+        for sayac in range(len(wire_sıra)):  
             c = generate_color()
             while(c in colors):
                 c = generate_color()
             colors.append(c)
-            #renk seçmi
-            val = buyukluk()
-            #boyut seçimi
+            val = 5
             b = random.randint(3,5)
-            #bboş iş
-
-
-
-            a=re.search("([A-Za-z]+)  ([0-9]+)",wire_sıra[sayac])
-            #print(a.group(1))
-            #print(a.group(2))
-            g_complete.add_node(a.group(2),label=a.group(1),color=c,value=val,
-                                title="Hello! I am Node "+a.group(1),borderWidth=b)
+            a2=re.search("([A-Za-z]+)  ([0-9]+)",wire_sıra[sayac])
+            g_complete.add_node(a2.group(2),label=a2.group(1),color=c,value=val,
+                                title="Hello! I am Node "+a2.group(1),borderWidth=b)
             
-    #node_Add(dugum_array)
+
     
     wire_add(wire_array) #tamamlandı
-    get_names()
-    i=0
-    chosen_set = []
-
-    #burası  arrow
-    while(i!=20):
-        eg = yol()
-        if(eg[0]!=eg[1] and not (eg in chosen_set)):
-            chosen_set.append(eg)
-            # change label for penis
-            #g_complete.add_edge(eg[0],eg[1], label='5')
-            i+=1
+    add_compenent()
 
     g_complete.show_buttons(['physics'])
 
